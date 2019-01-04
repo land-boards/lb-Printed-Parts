@@ -1,0 +1,2476 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>J Head Nozzle - RepRapWiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21.1" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mediawiki/opensearch_desc.php" title="RepRapWiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://reprap.org/mediawiki/api.php?action=rsd" />
+<link rel="copyright" href="http://www.gnu.org/copyleft/fdl.html" />
+<link rel="alternate" type="application/atom+xml" title="RepRapWiki Atom feed" href="/mediawiki/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="alternate" type="application/rss+xml" title="RepRapWiki RSS feed" href="/mediawiki/index.php?title=Special:RecentChanges&amp;feed=rss" />
+<link rel="stylesheet" href="http://reprap.org/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://reprap.org/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: mediawiki_121:resourceloader:filter:minify-css:7:0c3e4654831aeb1f565f4042e7f0f926 */</style>
+
+<script src="http://reprap.org/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"J_Head_Nozzle","wgTitle":"J Head Nozzle","wgCurRevisionId":109580,"wgArticleId":9900,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Working developments","Hot End","Extruders","Pages with broken file links"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"J_Head_Nozzle","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRestrictionRead":[],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":6,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs274":false,"searchNs275":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: mediawiki_121:resourceloader:filter:minify-js:7:693c4e15be025fa0b3a3b7a8bd3447ec */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/mediawiki/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-J_Head_Nozzle skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">J Head Nozzle</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From RepRapWiki</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><script type="text/javascript">
+if ( 'working'.replace('&lt;'+"script","script").toLowerCase() == 'Unknown'.replace('&lt;'+"script","script").toLowerCase() )
+{
+document.write('<style>.devBox{background-color:#CCCCCC;}</style>'.replace('&lt;'+"script","_script"));
+}
+else
+{
+document.write(''.replace('&lt;'+"script","_script"));
+}
+</script>
+<script type="text/javascript">
+if ( 'working'.replace('&lt;'+"script","script").toLowerCase() == 'Abandoned'.replace('&lt;'+"script","script").toLowerCase() )
+{
+document.write('<style>.devBox{background-color:#000000;}</style>'.replace('&lt;'+"script","_script"));
+}
+else
+{
+document.write(''.replace('&lt;'+"script","_script"));
+}
+</script>
+<script type="text/javascript">
+if ( 'working'.replace('&lt;'+"script","script").toLowerCase() == 'Obsolete'.replace('&lt;'+"script","script").toLowerCase() )
+{
+document.write('<style>.devBox{background-color:#CCCCCC;}</style>'.replace('&lt;'+"script","_script"));
+}
+else
+{
+document.write(''.replace('&lt;'+"script","_script"));
+}
+</script>
+<script type="text/javascript">
+if ( 'working'.replace('&lt;'+"script","script").toLowerCase() == 'Concept'.replace('&lt;'+"script","script").toLowerCase() )
+{
+document.write('<style>.devBox{background-color:#FF9933;}</style>'.replace('&lt;'+"script","_script"));
+}
+else
+{
+document.write(''.replace('&lt;'+"script","_script"));
+}
+</script>
+<script type="text/javascript">
+if ( 'working'.replace('&lt;'+"script","script").toLowerCase() == 'Experimental'.replace('&lt;'+"script","script").toLowerCase() )
+{
+document.write('<style>.devBox{background-color:#00B;}</style>'.replace('&lt;'+"script","_script"));
+}
+else
+{
+document.write(''.replace('&lt;'+"script","_script"));
+}
+</script>
+<script type="text/javascript">
+if ( 'working'.replace('&lt;'+"script","script").toLowerCase() == 'Working'.replace('&lt;'+"script","script").toLowerCase() )
+{
+document.write('<style>.devBox{background-color:#009200;}</style>'.replace('&lt;'+"script","_script"));
+}
+else
+{
+document.write(''.replace('&lt;'+"script","_script"));
+}
+</script>
+<script type="text/javascript">
+if ( 'working'.replace('&lt;'+"script","script").toLowerCase() == 'Prototype'.replace('&lt;'+"script","script").toLowerCase() )
+{
+document.write('<style>.devBox{background-color:#2B60DE;}</style>'.replace('&lt;'+"script","_script"));
+}
+else
+{
+document.write(''.replace('&lt;'+"script","_script"));
+}
+</script>
+</p>
+<div class="devBox" style="float: right; width:240px;color: white; padding-top: 3px; padding-bottom: 5px; font-weight: bold;">
+<div class="floatleft"><a href="/wiki/File:Crystal_Clear_action_run.png" class="image"><img alt="Crystal Clear action run.png" src="/mediawiki/images/thumb/5/5d/Crystal_Clear_action_run.png/40px-Crystal_Clear_action_run.png" width="40" height="40" srcset="/mediawiki/images/thumb/5/5d/Crystal_Clear_action_run.png/60px-Crystal_Clear_action_run.png 1.5x, /mediawiki/images/thumb/5/5d/Crystal_Clear_action_run.png/80px-Crystal_Clear_action_run.png 2x" /></a></div> <span style="font-size: 130%;">J-Head Nozzle</span><br />
+<p>Release status: working
+</p>
+<div style="background-color: white; margin-left: 5px; margin-right: 5px; padding-top: 5px; color: black; font-weight: normal;">
+<div class="center"><div class="floatnone"><a href="/wiki/File:Jhn_mk5.jpg" class="image"><img alt="Jhn mk5.jpg" src="/mediawiki/images/thumb/2/2a/Jhn_mk5.jpg/190px-Jhn_mk5.jpg" width="190" height="217" srcset="/mediawiki/images/thumb/2/2a/Jhn_mk5.jpg/285px-Jhn_mk5.jpg 1.5x, /mediawiki/images/thumb/2/2a/Jhn_mk5.jpg/380px-Jhn_mk5.jpg 2x" /></a></div></div>
+<table>
+<tr>
+<td style="vertical-align: top"> <b>Description</b> </td>
+<td> J-Head Nozzle and Thermal Barrier Based on a combination of ideas from the Makerbot Mk 5 hot end, The Inline Heater Variation, some ideas from Brian Briggs, and some ideas from me.
+</td></tr>
+<tr>
+<td style="vertical-align: top"> <b>License</b> </td>
+<td> GPL
+</td></tr>
+<tr>
+<td style="vertical-align: top"> <b>Author</b> </td>
+<td> <a href="/wiki/User:Reifsnyderb" title="User:Reifsnyderb">Reifsnyderb</a>
+</td></tr>
+<tr>
+<td style="vertical-align: top"> <b>Based-on</b> </td>
+<td> <a href="/wiki/Extruder_Nozzle_Variations" title="Extruder Nozzle Variations">Extruder Nozzle Variations</a>
+</td></tr>
+<tr>
+<td style="vertical-align: top"> <b>Categories</b> </td>
+<td> <a href="/wiki/Category:Hot_End" title="Category:Hot End">Hot End</a>, <a href="/wiki/Category:Extruders" title="Category:Extruders">Extruders</a>
+</td></tr>
+<tr>
+<td style="vertical-align: top"> <b>CAD Models</b> </td>
+<td> none
+</td></tr>
+<tr>
+<td style="vertical-align: top"> <b>External Link</b> </td>
+<td> <a rel="nofollow" class="external text" href="http://jheadnozzle.blogspot.com">Blog</a>
+</td></tr></table>
+</div>
+</div>
+<p><br />
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Suppliers"><span class="tocnumber">2</span> <span class="toctext">Suppliers</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Parts_List"><span class="tocnumber">3</span> <span class="toctext">Parts List</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Mk_I"><span class="tocnumber">3.1</span> <span class="toctext">Mk I</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Mk_II"><span class="tocnumber">3.2</span> <span class="toctext">Mk II</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Mk_III"><span class="tocnumber">3.3</span> <span class="toctext">Mk III</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Mk_III-B"><span class="tocnumber">3.4</span> <span class="toctext">Mk III-B</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Mk_IV"><span class="tocnumber">3.5</span> <span class="toctext">Mk IV</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Mk_IV-B"><span class="tocnumber">3.6</span> <span class="toctext">Mk IV-B</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Mk_V"><span class="tocnumber">3.7</span> <span class="toctext">Mk V</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Mk_V-B"><span class="tocnumber">3.8</span> <span class="toctext">Mk V-B</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Mk_V-BV"><span class="tocnumber">3.9</span> <span class="toctext">Mk V-BV</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Mk_VI-B"><span class="tocnumber">3.10</span> <span class="toctext">Mk VI-B</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Mk_VII-B"><span class="tocnumber">3.11</span> <span class="toctext">Mk VII-B</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Sundries"><span class="tocnumber">3.12</span> <span class="toctext">Sundries</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Parts_Descriptions"><span class="tocnumber">4</span> <span class="toctext">Parts Descriptions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#Machined_Parts"><span class="tocnumber">4.1</span> <span class="toctext">Machined Parts</span></a>
+<ul>
+<li class="toclevel-3 tocsection-18"><a href="#J-Head_Nozzle"><span class="tocnumber">4.1.1</span> <span class="toctext">J-Head Nozzle</span></a>
+<ul>
+<li class="toclevel-4 tocsection-19"><a href="#Version_1"><span class="tocnumber">4.1.1.1</span> <span class="toctext">Version 1</span></a></li>
+<li class="toclevel-4 tocsection-20"><a href="#Version_1.1"><span class="tocnumber">4.1.1.2</span> <span class="toctext">Version 1.1</span></a></li>
+<li class="toclevel-4 tocsection-21"><a href="#Version_2"><span class="tocnumber">4.1.1.3</span> <span class="toctext">Version 2</span></a></li>
+<li class="toclevel-4 tocsection-22"><a href="#Version_3"><span class="tocnumber">4.1.1.4</span> <span class="toctext">Version 3</span></a></li>
+<li class="toclevel-4 tocsection-23"><a href="#Version_4"><span class="tocnumber">4.1.1.5</span> <span class="toctext">Version 4</span></a></li>
+<li class="toclevel-4 tocsection-24"><a href="#Version_4.1"><span class="tocnumber">4.1.1.6</span> <span class="toctext">Version 4.1</span></a></li>
+<li class="toclevel-4 tocsection-25"><a href="#Version_4.2"><span class="tocnumber">4.1.1.7</span> <span class="toctext">Version 4.2</span></a></li>
+<li class="toclevel-4 tocsection-26"><a href="#Version_5"><span class="tocnumber">4.1.1.8</span> <span class="toctext">Version 5</span></a></li>
+<li class="toclevel-4 tocsection-27"><a href="#Version_6"><span class="tocnumber">4.1.1.9</span> <span class="toctext">Version 6</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-28"><a href="#Nozzle_Holder"><span class="tocnumber">4.1.2</span> <span class="toctext">Nozzle Holder</span></a>
+<ul>
+<li class="toclevel-4 tocsection-29"><a href="#Version_1_2"><span class="tocnumber">4.1.2.1</span> <span class="toctext">Version 1</span></a></li>
+<li class="toclevel-4 tocsection-30"><a href="#Version_2_2"><span class="tocnumber">4.1.2.2</span> <span class="toctext">Version 2</span></a></li>
+<li class="toclevel-4 tocsection-31"><a href="#Version_3_2"><span class="tocnumber">4.1.2.3</span> <span class="toctext">Version 3</span></a></li>
+<li class="toclevel-4 tocsection-32"><a href="#Version_4_2"><span class="tocnumber">4.1.2.4</span> <span class="toctext">Version 4</span></a></li>
+<li class="toclevel-4 tocsection-33"><a href="#Version_5_2"><span class="tocnumber">4.1.2.5</span> <span class="toctext">Version 5</span></a></li>
+<li class="toclevel-4 tocsection-34"><a href="#Version_6_2"><span class="tocnumber">4.1.2.6</span> <span class="toctext">Version 6</span></a></li>
+<li class="toclevel-4 tocsection-35"><a href="#Experimental.2C_Fluted"><span class="tocnumber">4.1.2.7</span> <span class="toctext">Experimental, Fluted</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-36"><a href="#Heat_Sink"><span class="tocnumber">4.1.3</span> <span class="toctext">Heat Sink</span></a>
+<ul>
+<li class="toclevel-4 tocsection-37"><a href="#Version_1_3"><span class="tocnumber">4.1.3.1</span> <span class="toctext">Version 1</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-38"><a href="#PTFE_Liner"><span class="tocnumber">4.1.4</span> <span class="toctext">PTFE Liner</span></a>
+<ul>
+<li class="toclevel-4 tocsection-39"><a href="#Version_1_4"><span class="tocnumber">4.1.4.1</span> <span class="toctext">Version 1</span></a></li>
+<li class="toclevel-4 tocsection-40"><a href="#Version_2_3"><span class="tocnumber">4.1.4.2</span> <span class="toctext">Version 2</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-41"><a href="#1.75mm_Conversion"><span class="tocnumber">4.1.5</span> <span class="toctext">1.75mm Conversion</span></a>
+<ul>
+<li class="toclevel-4 tocsection-42"><a href="#Mk_II_To_Mk_IV_Series_Hot-Ends"><span class="tocnumber">4.1.5.1</span> <span class="toctext">Mk II To Mk IV Series Hot-Ends</span></a>
+<ul>
+<li class="toclevel-5 tocsection-43"><a href="#PEEK_hollow_set_screw"><span class="tocnumber">4.1.5.1.1</span> <span class="toctext">PEEK hollow set screw</span></a></li>
+<li class="toclevel-5 tocsection-44"><a href="#1.75mm_PTFE_Liner"><span class="tocnumber">4.1.5.1.2</span> <span class="toctext">1.75mm PTFE Liner</span></a></li>
+</ul>
+</li>
+<li class="toclevel-4 tocsection-45"><a href="#Mk_V_and_Later_Hot_Ends"><span class="tocnumber">4.1.5.2</span> <span class="toctext">Mk V and Later Hot Ends</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-46"><a href="#Off-The-Shelf_Parts"><span class="tocnumber">4.2</span> <span class="toctext">Off-The-Shelf Parts</span></a>
+<ul>
+<li class="toclevel-3 tocsection-47"><a href="#Heater_Resistor"><span class="tocnumber">4.2.1</span> <span class="toctext">Heater Resistor</span></a>
+<ul>
+<li class="toclevel-4 tocsection-48"><a href="#5.6_ohm_.28Large_Standard.29"><span class="tocnumber">4.2.1.1</span> <span class="toctext">5.6 ohm (Large Standard)</span></a></li>
+<li class="toclevel-4 tocsection-49"><a href="#6.8_ohm_.28Large_Alternate.29"><span class="tocnumber">4.2.1.2</span> <span class="toctext">6.8 ohm (Large Alternate)</span></a></li>
+<li class="toclevel-4 tocsection-50"><a href="#6.8_ohm_.28Small.29"><span class="tocnumber">4.2.1.3</span> <span class="toctext">6.8 ohm (Small)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-51"><a href="#Support_Washer"><span class="tocnumber">4.2.2</span> <span class="toctext">Support Washer</span></a></li>
+<li class="toclevel-3 tocsection-52"><a href="#Thermistors"><span class="tocnumber">4.2.3</span> <span class="toctext">Thermistors</span></a>
+<ul>
+<li class="toclevel-4 tocsection-53"><a href="#Thermistor_1"><span class="tocnumber">4.2.3.1</span> <span class="toctext">Thermistor 1</span></a></li>
+<li class="toclevel-4 tocsection-54"><a href="#Thermistor_5"><span class="tocnumber">4.2.3.2</span> <span class="toctext">Thermistor 5</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-55"><a href="#Ceramic_Heater_Cartridge"><span class="tocnumber">4.2.4</span> <span class="toctext">Ceramic Heater Cartridge</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-56"><a href="#Assembly"><span class="tocnumber">5</span> <span class="toctext">Assembly</span></a>
+<ul>
+<li class="toclevel-2 tocsection-57"><a href="#Photo_Series_with_detailed_assembly_instructions_for_current_version_of_JHead"><span class="tocnumber">5.1</span> <span class="toctext">Photo Series with detailed assembly instructions for current version of JHead</span></a></li>
+<li class="toclevel-2 tocsection-58"><a href="#Mk_I_2"><span class="tocnumber">5.2</span> <span class="toctext">Mk I</span></a></li>
+<li class="toclevel-2 tocsection-59"><a href="#Mk_II_2"><span class="tocnumber">5.3</span> <span class="toctext">Mk II</span></a></li>
+<li class="toclevel-2 tocsection-60"><a href="#Mk_III_2"><span class="tocnumber">5.4</span> <span class="toctext">Mk III</span></a></li>
+<li class="toclevel-2 tocsection-61"><a href="#Mk_IV_2"><span class="tocnumber">5.5</span> <span class="toctext">Mk IV</span></a></li>
+<li class="toclevel-2 tocsection-62"><a href="#Mk_V_2"><span class="tocnumber">5.6</span> <span class="toctext">Mk V</span></a></li>
+<li class="toclevel-2 tocsection-63"><a href="#Heater_Resistor_2"><span class="tocnumber">5.7</span> <span class="toctext">Heater Resistor</span></a></li>
+<li class="toclevel-2 tocsection-64"><a href="#Thermistor"><span class="tocnumber">5.8</span> <span class="toctext">Thermistor</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-65"><a href="#Installation"><span class="tocnumber">6</span> <span class="toctext">Installation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-66"><a href="#Using_the_Mounting_Holes_in_the_Wade_Extruder"><span class="tocnumber">6.1</span> <span class="toctext">Using the Mounting Holes in the Wade Extruder</span></a></li>
+<li class="toclevel-2 tocsection-67"><a href="#Using_The_Support_Washer"><span class="tocnumber">6.2</span> <span class="toctext">Using The Support Washer</span></a></li>
+<li class="toclevel-2 tocsection-68"><a href="#Using_Wire_With_The_Support_Washer"><span class="tocnumber">6.3</span> <span class="toctext">Using Wire With The Support Washer</span></a></li>
+<li class="toclevel-2 tocsection-69"><a href="#Using_A_Mounting_Groove"><span class="tocnumber">6.4</span> <span class="toctext">Using A Mounting Groove</span></a></li>
+<li class="toclevel-2 tocsection-70"><a href="#Wildseyed_Simple_Hot_End_Mounting_System"><span class="tocnumber">6.5</span> <span class="toctext">Wildseyed Simple Hot End Mounting System</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-71"><a href="#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a>
+<ul>
+<li class="toclevel-2 tocsection-72"><a href="#General"><span class="tocnumber">7.1</span> <span class="toctext">General</span></a></li>
+<li class="toclevel-2 tocsection-73"><a href="#Nozzle_Orifice"><span class="tocnumber">7.2</span> <span class="toctext">Nozzle Orifice</span></a>
+<ul>
+<li class="toclevel-3 tocsection-74"><a href="#Drill_bit_sizes_and_conversions"><span class="tocnumber">7.2.1</span> <span class="toctext">Drill bit sizes and conversions</span></a></li>
+<li class="toclevel-3 tocsection-75"><a href="#Nozzle_orifice_length"><span class="tocnumber">7.2.2</span> <span class="toctext">Nozzle orifice length</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-76"><a href="#Troubleshooting"><span class="tocnumber">7.3</span> <span class="toctext">Troubleshooting</span></a></li>
+<li class="toclevel-2 tocsection-77"><a href="#Testing"><span class="tocnumber">7.4</span> <span class="toctext">Testing</span></a>
+<ul>
+<li class="toclevel-3 tocsection-78"><a href="#Prototype"><span class="tocnumber">7.4.1</span> <span class="toctext">Prototype</span></a></li>
+<li class="toclevel-3 tocsection-79"><a href="#Mk_I_3"><span class="tocnumber">7.4.2</span> <span class="toctext">Mk I</span></a></li>
+<li class="toclevel-3 tocsection-80"><a href="#Mk_I_with_Heat_Sink"><span class="tocnumber">7.4.3</span> <span class="toctext">Mk I with Heat Sink</span></a></li>
+<li class="toclevel-3 tocsection-81"><a href="#Mk_III-B_2"><span class="tocnumber">7.4.4</span> <span class="toctext">Mk III-B</span></a></li>
+<li class="toclevel-3 tocsection-82"><a href="#Mk_IV_Original_Prototype"><span class="tocnumber">7.4.5</span> <span class="toctext">Mk IV Original Prototype</span></a></li>
+<li class="toclevel-3 tocsection-83"><a href="#Mk_V-B_2"><span class="tocnumber">7.4.6</span> <span class="toctext">Mk V-B</span></a></li>
+<li class="toclevel-3 tocsection-84"><a href="#Experimental_Light-Weight_Hot_End"><span class="tocnumber">7.4.7</span> <span class="toctext">Experimental Light-Weight Hot End</span></a></li>
+<li class="toclevel-3 tocsection-85"><a href="#Thermally_Fused_Hot-End"><span class="tocnumber">7.4.8</span> <span class="toctext">Thermally Fused Hot-End</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-86"><a href="#Possible_Future_Modifications"><span class="tocnumber">7.5</span> <span class="toctext">Possible Future Modifications</span></a>
+<ul>
+<li class="toclevel-3 tocsection-87"><a href="#Implemented_Or_Working"><span class="tocnumber">7.5.1</span> <span class="toctext">Implemented Or Working</span></a></li>
+<li class="toclevel-3 tocsection-88"><a href="#Testing_Phase"><span class="tocnumber">7.5.2</span> <span class="toctext">Testing Phase</span></a></li>
+<li class="toclevel-3 tocsection-89"><a href="#Under_Consideration"><span class="tocnumber">7.5.3</span> <span class="toctext">Under Consideration</span></a></li>
+<li class="toclevel-3 tocsection-90"><a href="#Rejected"><span class="tocnumber">7.5.4</span> <span class="toctext">Rejected</span></a></li>
+<li class="toclevel-3 tocsection-91"><a href="#Miscellaneous"><span class="tocnumber">7.5.5</span> <span class="toctext">Miscellaneous</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-92"><a href="#Weights"><span class="tocnumber">7.6</span> <span class="toctext">Weights</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-93"><a href="#Working_Examples"><span class="tocnumber">8</span> <span class="toctext">Working Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-94"><a href="#Pictures"><span class="tocnumber">8.1</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-2 tocsection-95"><a href="#Videos"><span class="tocnumber">8.2</span> <span class="toctext">Videos</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Introduction">Introduction</span></h2>
+<p><a href="/wiki/File:Jhn_nozzles.jpg" class="image"><img alt="Jhn nozzles.jpg" src="/mediawiki/images/thumb/f/fb/Jhn_nozzles.jpg/300px-Jhn_nozzles.jpg" width="300" height="179" srcset="/mediawiki/images/thumb/f/fb/Jhn_nozzles.jpg/450px-Jhn_nozzles.jpg 1.5x, /mediawiki/images/thumb/f/fb/Jhn_nozzles.jpg/600px-Jhn_nozzles.jpg 2x" /></a>
+</p><p>This nozzle is a combination of ideas from other nozzle designs combined with a goal to reduce the number of custom machined parts to a bare minimum.  By reducing the number of machined parts, it is hoped that the cost of this hot-end can be kept down while improving the reliability.
+</p><p>The use of a machined piece of round PTFE, as a liner, was requested in one of two designs by Brian Briggs.  
+</p><p>The idea of using the <a href="/wiki/PTFE" title="PTFE">PTFE</a> tubing as a liner, from the <a href="/wiki/Category:Cold_End" title="Category:Cold End">Cold End</a> to the tip, was borrowed from the Makerbot Mk V extruder design.
+</p><p>The PTFE tubing also acts to "bridge" the joint between the <a href="/wiki/PEEK" title="PEEK">PEEK</a> insulator and the <a href="/mediawiki/index.php?title=Brass&amp;action=edit&amp;redlink=1" class="new" title="Brass (page does not exist)">brass</a> nozzle/heater.  By not having the <a href="/wiki/Filament" title="Filament">filament</a> in contact with this joint it is hoped that any possibility of leakage will be completely eliminated.
+</p><p>The use of a combination heater and nozzle was borrowed from <a href="/mediawiki/index.php?title=User:ParCan&amp;action=edit&amp;redlink=1" class="new" title="User:ParCan (page does not exist)">ParCan's</a> <a href="/wiki/Extruder_Nozzle_Variations#Inline_Heater_-_Variation" title="Extruder Nozzle Variations"> Inline Heater Nozzle Variation</a>.  However, instead of the heater resistor being mounted parallel to the path of the filament it is mounted perpendicular to the path of the filament.  This was done to both reduce the length of the nozzle and to make it a little easier to run the leads from the heater resistor.  Combining the heater and nozzle also helped to meet the goal to keep the number of custom machined parts to a minimum.
+</p><p><b>Advantages</b>
+</p>
+<ul><li>  Internally, the filament path is identical to that of an already proven design.
+</li><li>  The design is simple as the number of custom machined parts is kept to a minimum.
+</li><li>  If necessary, the PTFE liner can be replaced by using an off-the-shelf piece of PTFE tubing.
+</li><li>  The PTFE is not stressed nor used to provide support.  This reduces a point of failure that is part of other designs.
+</li><li>  A resistor is used as a heater.  There is no need to wrap nichrome wire or to bake a heater core.
+</li><li>  Heat transmission is improved as there is no thermal junction where a separate heater screws onto the nozzle.
+</li><li>  With most versions weighing in at under 25 grams and the lightest version weighing in at under 13 grams, this design is very light.
+</li></ul>
+<p><b>Disadvantages</b>
+</p>
+<ul><li>  Considerable machining is required.
+</li></ul>
+<h2> <span class="mw-headline" id="Suppliers">Suppliers</span></h2>
+<p><br /><br /><br />
+</p><p><br />
+<b><a rel="nofollow" class="external text" href="http://jheadnozzle.blogspot.com/2013/11/is-j-head-real.html">Differences Between Real J-Heads and Cheap Clones</a></b>
+</p><p><br />
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.hotends.com">HotEnds.com</a>
+</li></ul>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.3dacessorieshub.com">3dacessorieshub.com</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.3dprinterczar.com">3D Printer Czar</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.charlies3dtechnologies.eu">Charlie's 3D Technologies</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.cubic-print.com">Cubic Print Germany</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.makerfarm.com">MakerFarm.com</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.NorcalReprap.com">NorcalReprap.com</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.plastic2print.com/en/j-head-hotends.html">Plastic2Print Europe</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.reprap-usa.com">RepRap-USA</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.reprapsource.com">reprapsource</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.reprap-france.com/">eMotion Tech reprap-france.com</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.TriDPrinting.com/Hot-Ends/">TriDPrinting.com HotEnds Seattle</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.ultibots.com/hot-ends">Ultibots Hot Ends</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Parts_List">Parts List</span></h2>
+<h3> <span class="mw-headline" id="Mk_I">Mk I</span></h3>
+<p>Summary:  First J-Head hot-end.
+</p><p><a href="/wiki/File:Jhn_mk1.jpg" class="image"><img alt="Jhn mk1.jpg" src="/mediawiki/images/thumb/c/c3/Jhn_mk1.jpg/150px-Jhn_mk1.jpg" width="150" height="136" srcset="/mediawiki/images/thumb/c/c3/Jhn_mk1.jpg/225px-Jhn_mk1.jpg 1.5x, /mediawiki/images/thumb/c/c3/Jhn_mk1.jpg/300px-Jhn_mk1.jpg 2x" /></a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v1.x)
+</td>
+<td>Machined Brass Nozzle/Heater Combination, Version 1.x
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v1)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 1.x
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v1)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 1
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heater Resistor
+</td>
+<td>Axial, 5.6 ohm, 1%, 5W
+</td>
+<td>UB5C-5.6-ND
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Thermistor 1
+</td>
+<td>EPCOS 100K
+</td>
+<td>B57560G104F
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Support Washer
+</td>
+<td>Optional 1/2" Fender Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91090A114
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_II">Mk II</span></h3>
+<p>Summary:  Added a hollow set-screw to retain the PTFE liner.
+</p><p><a href="/wiki/File:Jhn_mk2.jpg" class="image"><img alt="Jhn mk2.jpg" src="/mediawiki/images/thumb/e/e4/Jhn_mk2.jpg/150px-Jhn_mk2.jpg" width="150" height="132" srcset="/mediawiki/images/thumb/e/e4/Jhn_mk2.jpg/225px-Jhn_mk2.jpg 1.5x, /mediawiki/images/thumb/e/e4/Jhn_mk2.jpg/300px-Jhn_mk2.jpg 2x" /></a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v1.x)
+</td>
+<td>Machined Brass Nozzle/Heater Combination, Version 1.x
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v2)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 2
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v1)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 1
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heater Resistor
+</td>
+<td>Axial, 5.6 ohm, 1%, 5W
+</td>
+<td>UB5C-5.6-ND
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Thermistor 1
+</td>
+<td>EPCOS 100K
+</td>
+<td>B57560G104F
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Support Washer
+</td>
+<td>Optional 1/2" Fender Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91090A114
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_III">Mk III</span></h3>
+<p>Summary:  Added a heat sink in order to print PLA.  To reduce weight, an aluminum nozzle is used.
+</p><p><a href="/wiki/File:Jhn_mk3.jpg" class="image"><img alt="Jhn mk3.jpg" src="/mediawiki/images/thumb/5/57/Jhn_mk3.jpg/150px-Jhn_mk3.jpg" width="150" height="142" srcset="/mediawiki/images/thumb/5/57/Jhn_mk3.jpg/225px-Jhn_mk3.jpg 1.5x, /mediawiki/images/thumb/5/57/Jhn_mk3.jpg/300px-Jhn_mk3.jpg 2x" /></a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v2)
+</td>
+<td>Machined Aluminum Nozzle/Heater Combination, Version 2
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v3)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 3
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heat Sink
+</td>
+<td>Machined Aluminum Heat Sink
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v1)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 1
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heater Resistor
+</td>
+<td>Axial, 5.6 ohm, 1%, 5W
+</td>
+<td>UB5C-5.6-ND
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Thermistor 1
+</td>
+<td>EPCOS 100K
+</td>
+<td>B57560G104F
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Support Washer
+</td>
+<td>Optional 1/2" Fender Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91090A114
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_III-B">Mk III-B</span></h3>
+<p>Summary:  Added a heat sink in order to print PLA.
+</p><p><a href="/wiki/File:Jhn_mk3_b_pic.jpg" class="image"><img alt="Jhn mk3 b pic.jpg" src="/mediawiki/images/thumb/0/0a/Jhn_mk3_b_pic.jpg/150px-Jhn_mk3_b_pic.jpg" width="150" height="133" srcset="/mediawiki/images/thumb/0/0a/Jhn_mk3_b_pic.jpg/225px-Jhn_mk3_b_pic.jpg 1.5x, /mediawiki/images/thumb/0/0a/Jhn_mk3_b_pic.jpg/300px-Jhn_mk3_b_pic.jpg 2x" /></a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v1.x)
+</td>
+<td>Machined Brass Nozzle/Heater Combination, Version 1.x
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v3)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 3
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heat Sink (v1)
+</td>
+<td>Machined Aluminum Heat Sink, Version 1
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v1)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 1
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heater Resistor
+</td>
+<td>Axial, 5.6 ohm, 1%, 5W
+</td>
+<td>UB5C-5.6-ND
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Thermistor 1
+</td>
+<td>EPCOS 100K
+</td>
+<td>B57560G104F
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Support Washer
+</td>
+<td>Optional 1/2" Fender Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91090A114
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_IV">Mk IV</span></h3>
+<p>Summary:  Removed the heat sink and added a series of vents to provide cooling.  To reduce weight, an aluminum nozzle is used.
+</p><p><a href="/wiki/File:Jhn_mk4.jpg" class="image"><img alt="Jhn mk4.jpg" src="/mediawiki/images/thumb/e/e7/Jhn_mk4.jpg/150px-Jhn_mk4.jpg" width="150" height="155" srcset="/mediawiki/images/thumb/e/e7/Jhn_mk4.jpg/225px-Jhn_mk4.jpg 1.5x, /mediawiki/images/thumb/e/e7/Jhn_mk4.jpg/300px-Jhn_mk4.jpg 2x" /></a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v2)
+</td>
+<td>Machined Aluminum Nozzle/Heater Combination, Version 2
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v4)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 4
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v1)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 1
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heater Resistor
+</td>
+<td>Axial, 5.6 ohm, 1%, 5W
+</td>
+<td>UB5C-5.6-ND
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Thermistor 1
+</td>
+<td>EPCOS 100K
+</td>
+<td>B57560G104F
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Support Washer
+</td>
+<td>Optional 1/2" Fender Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91090A114
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_IV-B">Mk IV-B</span></h3>
+<p>Summary:  Removed the heat sink and added a series of vents to provide cooling.
+</p><p><a href="/wiki/File:Jhn_mk4_b.jpg" class="image"><img alt="Jhn mk4 b.jpg" src="/mediawiki/images/thumb/e/e5/Jhn_mk4_b.jpg/150px-Jhn_mk4_b.jpg" width="150" height="164" srcset="/mediawiki/images/thumb/e/e5/Jhn_mk4_b.jpg/225px-Jhn_mk4_b.jpg 1.5x, /mediawiki/images/thumb/e/e5/Jhn_mk4_b.jpg/300px-Jhn_mk4_b.jpg 2x" /></a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v1.x)
+</td>
+<td>Machined Brass Nozzle/Heater Combination, Version 1.x
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v4)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 4
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v1)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 1
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heater Resistor
+</td>
+<td>Axial, 5.6 ohm, 1%, 5W
+</td>
+<td>UB5C-5.6-ND
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Thermistor 1
+</td>
+<td>EPCOS 100K
+</td>
+<td>B57560G104F
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Support Washer
+</td>
+<td>Optional 1/2" Fender Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91090A114
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_V">Mk V</span></h3>
+<p>Summary:  Reduced the size and increased the length of the melt zone.  To reduce weight, an aluminum nozzle is used.
+</p><p><a href="/wiki/File:Jhn_mk5.jpg" class="image"><img alt="Jhn mk5.jpg" src="/mediawiki/images/thumb/2/2a/Jhn_mk5.jpg/150px-Jhn_mk5.jpg" width="150" height="171" srcset="/mediawiki/images/thumb/2/2a/Jhn_mk5.jpg/225px-Jhn_mk5.jpg 1.5x, /mediawiki/images/thumb/2/2a/Jhn_mk5.jpg/300px-Jhn_mk5.jpg 2x" /></a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v5)
+</td>
+<td>Machined Aluminum Nozzle/Heater Combination, Version 5
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v5)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 5
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v1)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 1
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heater Resistor
+</td>
+<td>Axial, 5.6 ohm, 1%, 5W
+</td>
+<td>UB5C-5.6-ND
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Thermistor 1
+</td>
+<td>EPCOS 100K
+</td>
+<td>B57560G104F
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Flat Washer
+</td>
+<td>1/4" OD Flat Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 98032A436
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_V-B">Mk V-B</span></h3>
+<p>Summary:  Reduced the size and increased the length of the melt zone.
+</p><p><a href="/wiki/File:Jhn_mk5b.jpg" class="image"><img alt="Jhn mk5b.jpg" src="/mediawiki/images/thumb/c/ce/Jhn_mk5b.jpg/150px-Jhn_mk5b.jpg" width="150" height="143" srcset="/mediawiki/images/thumb/c/ce/Jhn_mk5b.jpg/225px-Jhn_mk5b.jpg 1.5x, /mediawiki/images/thumb/c/ce/Jhn_mk5b.jpg/300px-Jhn_mk5b.jpg 2x" /></a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v4)
+</td>
+<td>Machined Brass Nozzle/Heater Combination, Version 4
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v5)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 5
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v1)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 1
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heater Resistor
+</td>
+<td>Axial, 5.6 ohm, 1%, 5W
+</td>
+<td>UB5C-5.6-ND
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Thermistor 1
+</td>
+<td>EPCOS 100K
+</td>
+<td>B57560G104F
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Flat Washer
+</td>
+<td>1/4" OD Flat Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 98032A436
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_V-BV">Mk V-BV</span></h3>
+<p>Summary:  As the old thermistor was discontinued, the Semitec thermistor was substituted.
+</p><p><a href="/wiki/File:Jhn_mk5bv.jpg" class="image"><img alt="Jhn mk5bv.jpg" src="/mediawiki/images/thumb/5/50/Jhn_mk5bv.jpg/150px-Jhn_mk5bv.jpg" width="150" height="201" srcset="/mediawiki/images/thumb/5/50/Jhn_mk5bv.jpg/225px-Jhn_mk5bv.jpg 1.5x, /mediawiki/images/thumb/5/50/Jhn_mk5bv.jpg/300px-Jhn_mk5bv.jpg 2x" /></a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v4.1)
+</td>
+<td>Machined Brass Nozzle/Heater Combination, Version 4
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v5)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 5
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v2)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 2
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Heater Resistor
+</td>
+<td>Axial, 5.6 ohm, 1%, 5W
+</td>
+<td>UB5C-5.6-ND
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Thermistor 5
+</td>
+<td>Semitec
+</td>
+<td>104GT-2
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Flat Washer
+</td>
+<td>1/4" OD Flat Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 98032A436
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_VI-B">Mk VI-B</span></h3>
+<p>Summary:  Uses a heater cartridge and two thermistors.  If the firmware (Marlin) is properly configured, and the thermistors are not reporting the same temperature, the firmware will turn off the heater cartridge.
+</p><p><a href="/mediawiki/index.php?title=Special:Upload&amp;wpDestFile=Jhn_mk6b.jpg" class="new" title="File:Jhn mk6b.jpg">150px</a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v4.2)
+</td>
+<td>Machined Brass Nozzle/Heater Combination, Version 4.2
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v5)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 5
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v2)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 2
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Ceramic Heater Cartridge
+</td>
+<td>12V, 30W, 15mm long, 6mm diameter
+</td>
+<td>
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>Thermistor 5
+</td>
+<td>Semitec
+</td>
+<td>104GT-2
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Set Screw
+</td>
+<td>4-40 Set Screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> part num. coming soon
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>4-40 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> part num. coming soon
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Flat Washer
+</td>
+<td>1/4" OD Flat Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 98032A436
+</td></tr></table>
+<h3> <span class="mw-headline" id="Mk_VII-B">Mk VII-B</span></h3>
+<p>Summary:  New nozzle holder design.
+</p><p><a href="/mediawiki/index.php?title=Special:Upload&amp;wpDestFile=Jhn_mk6b.jpg" class="new" title="File:Jhn mk6b.jpg">150px</a>
+</p>
+<table border="1">
+<tr>
+<td><b>Quantity</b>
+</td>
+<td><b>Part</b>
+</td>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>J-Head Nozzle (v4.2)
+</td>
+<td>Machined Brass Nozzle/Heater Combination, Version 4.2
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Nozzle Holder (v6)
+</td>
+<td>Machined PEEK Nozzle Holder, Version 6
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>PTFE liner (v2)
+</td>
+<td>1/8" ID, 1/4" OD PTFE tubing, Version 2
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5033K31
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Ceramic Heater Cartridge
+</td>
+<td>12V, 30W, 15mm long, 6mm diameter
+</td>
+<td>
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>Thermistor 5
+</td>
+<td>Semitec
+</td>
+<td>104GT-2
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Set Screw
+</td>
+<td>4-40 Set Screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> part num. coming soon
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>4-40 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> part num. coming soon
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Hollow-lock socket set screw
+</td>
+<td>5/16-24 hollow-lock socket set screw
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 91301A150
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Flat Washer
+</td>
+<td>1/4" OD Flat Washer
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 98032A436
+</td></tr></table>
+<h3> <span class="mw-headline" id="Sundries">Sundries</span></h3>
+<table border="1">
+<tr>
+<td><b>Description</b>
+</td>
+<td><b>Part Number</b>
+</td>
+<td><b>Notes</b>
+</td></tr>
+<tr>
+<td>PTFE Insulation For EPCOS or Semitec Thermistor, 0.012" ID
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5335K9
+</td>
+<td>
+</td></tr>
+<tr>
+<td>PTFE Insulation For Heater Resistor, 0.047" ID
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 5335K15
+</td>
+<td>
+</td></tr>
+<tr>
+<td>20 AWG High Temperature Wire
+</td>
+<td><a rel="nofollow" class="external text" href="http://www.mcmaster.com">McMaster-Carr</a> 8209K11
+</td>
+<td>
+</td></tr></table>
+<p>Note: *A good drill-chart for anyone with plans to make one can be found here <a rel="nofollow" class="external free" href="http://whatisacnc.com/index.php?cID=241">http://whatisacnc.com/index.php?cID=241</a>
+</p>
+<h2> <span class="mw-headline" id="Parts_Descriptions">Parts Descriptions</span></h2>
+<h3> <span class="mw-headline" id="Machined_Parts">Machined Parts</span></h3>
+<h4> <span class="mw-headline" id="J-Head_Nozzle">J-Head Nozzle</span></h4>
+<p><a href="/wiki/File:Jhn_machining.jpg" class="image"><img alt="Jhn machining.jpg" src="/mediawiki/images/thumb/0/0f/Jhn_machining.jpg/600px-Jhn_machining.jpg" width="600" height="216" srcset="/mediawiki/images/thumb/0/0f/Jhn_machining.jpg/900px-Jhn_machining.jpg 1.5x, /mediawiki/images/thumb/0/0f/Jhn_machining.jpg/1200px-Jhn_machining.jpg 2x" /></a>
+</p><p><br />
+</p>
+<h5> <span class="mw-headline" id="Version_1">Version 1</span></h5>
+<p><a href="/wiki/File:Jhn_nozzle_ver1.jpg" class="image"><img alt="Jhn nozzle ver1.jpg" src="/mediawiki/images/thumb/a/aa/Jhn_nozzle_ver1.jpg/200px-Jhn_nozzle_ver1.jpg" width="200" height="239" srcset="/mediawiki/images/thumb/a/aa/Jhn_nozzle_ver1.jpg/300px-Jhn_nozzle_ver1.jpg 1.5x, /mediawiki/images/thumb/a/aa/Jhn_nozzle_ver1.jpg/400px-Jhn_nozzle_ver1.jpg 2x" /></a>
+</p><p><a href="/wiki/File:Jhn_md_brass_heater_nozzle.jpg" class="image"><img alt="Jhn md brass heater nozzle.jpg" src="/mediawiki/images/thumb/b/b2/Jhn_md_brass_heater_nozzle.jpg/150px-Jhn_md_brass_heater_nozzle.jpg" width="150" height="113" srcset="/mediawiki/images/thumb/b/b2/Jhn_md_brass_heater_nozzle.jpg/225px-Jhn_md_brass_heater_nozzle.jpg 1.5x, /mediawiki/images/thumb/b/b2/Jhn_md_brass_heater_nozzle.jpg/300px-Jhn_md_brass_heater_nozzle.jpg 2x" /></a>
+</p><p>Material:  Brass Bar Stock, 5/8" Square Or 5/8" x 1/2" Rectangular, 1.125" Long
+</p><p>Finished Weight:  11.1 grams
+</p><p>Note:  These instructions differ from the machining example displayed in the above picture and are only one example of how the nozzle can be machined.  The machining process can vary depending upon available machinery and tooling.  The minimum machining requirements are a metal lathe with a 4-jaw independent chuck.
+</p>
+<ol><li> Cut a piece of brass bar stock 1.125" long plus enough to adequately hold the stock in the lathe.
+</li><li> On the brass bar stock, find the center of the axis of the nozzle.  This can be done by various means ranging from using a milling machine to using marking fluid, a height gauge, and a surface plate.
+</li><li> Mount the brass bar stock in a 4-jaw chuck on a lathe.  Adjust the chuck so that the nozzle axis is on center.
+</li><li> Turn the threaded end of the nozzle down to 0.375 +0.000 -0.004.
+</li><li> Thread the nozzle to 3/8-24 up to the shoulder of the heater section.
+</li><li> Drill out the center of the nozzle using a 6.5mm drill bit.
+</li><li> Turn off the last 3 threads, at the end of the nozzle, and cleanup the threads.
+</li><li> Cut a 30 degree taper on the very end of the threaded end of the brass nozzle.  This is to completely eliminate the internal gap between the brass nozzle and the PEEK thermal barrier.  This gap would exist due to the internal taper created by the cutting edge of the drill bit.
+</li><li> Remove the work piece and mount it by the threaded end so that the threaded end is centered in the lathe.
+</li><li> Cut-off any excess material.
+</li><li> Machine the nozzle tip to the desired profile.
+</li><li> Drill the nozzle orifice.
+</li><li> Mill or turn off the excess material in the heater section.  This can be accomplished by mounting the nozzle in the 4-jaw chuck sideways so that the excess material is presented for machining.  If available, a milling machine can also be used.  (If a 5/8" x 1/2" piece of bar stock is used, this step will be skipped.)
+</li><li> Using a letter size A drill bit, drill out the hole for the heater resistor.
+</li><li> Drill out the hole for the thermistor.
+</li></ol>
+<h5> <span class="mw-headline" id="Version_1.1">Version 1.1</span></h5>
+<p>Material:  Brass Bar Stock, 5/8" Square Or 5/8" x 1/2" Rectangular, 1.125" Long
+</p><p>Finished Weight:  14.4 grams w/optional improvements
+</p><p>With the exception of the following changes, the dimensions are identical to Version 1 of the J-Head Nozzle.  These changes were implemented in early December of 2011.
+</p>
+<ol><li> Melt Chamber:  Drill out the internal cavity to a depth of 0.560 with the 6.5mm drill bit.  Finish drilling the internal cavity with a 3.5mm drill bit.
+</li><li> Nozzle Orifice Spout Diameter:  Reduce the diameter of the nozzle orifice spout from 0.080 to 0.050.  This will reduce the size of the tip that can catch on the print.
+</li><li> Start of Nozzle Orifice Taper:  Start the taper at 0.050 from the heater block section.  This will add room for optional insulation.
+</li></ol>
+<h5> <span class="mw-headline" id="Version_2">Version 2</span></h5>
+<p><a href="/wiki/File:Jhn_nozzle_ver2.jpg" class="image"><img alt="Jhn nozzle ver2.jpg" src="/mediawiki/images/thumb/0/09/Jhn_nozzle_ver2.jpg/200px-Jhn_nozzle_ver2.jpg" width="200" height="243" srcset="/mediawiki/images/thumb/0/09/Jhn_nozzle_ver2.jpg/300px-Jhn_nozzle_ver2.jpg 1.5x, /mediawiki/images/thumb/0/09/Jhn_nozzle_ver2.jpg/400px-Jhn_nozzle_ver2.jpg 2x" /></a>
+</p><p>Material:  Aluminum Bar Stock, 5/8" Square Or 5/8" x 1/2" Rectangular, 1.125" Long
+</p><p>Finished Weight:  3.8 grams
+</p><p>Note:  The primary reason for using aluminum is to save weight.  The alloy should be 2024, 7075, or a similar harder, high quality, alloy.  Softer alloys, such as 6061, are not recommended.
+</p><p>The blueprint and instructions are identical to Version 1 of the J-Head Nozzle.
+</p>
+<h5> <span class="mw-headline" id="Version_3">Version 3</span></h5>
+<p>Material:  Aluminum (2024 or 7075) Bar Stock, 1/2" Square, 1.000" Long
+</p><p>Finished Weight:  Unknown
+</p><p>(Instructions are incomplete at this time.)
+</p>
+<ol><li> Cut a piece of aluminum bar stock 1.000" long plus enough to adequately hold the stock in the lathe.
+</li><li> On the aluminum bar stock, find the center of the axis of the nozzle.  This can be done by various means ranging from using a milling machine to using marking fluid, a height gauge, and a surface plate.
+</li><li> Mount the brass bar stock in a 4-jaw chuck on a lathe.  Adjust the chuck so that the nozzle axis is on center.
+</li><li> Turn the threaded end of the nozzle down to 0.375 +0.000 -0.004.  The threaded end will be 0.500" long.
+</li><li> Thread the nozzle to 3/8-24 up to the shoulder of the heater section.
+</li><li> Drill out the center of the nozzle, to a depth of 0.500", using a 6.5mm drill bit.  The depth will be measured from the side of the hole.
+</li><li> Drill out the melt chamber using a 3.5mm drill bit.
+</li><li> Turn off the last 3 threads, at the end of the nozzle, and cleanup the threads.
+</li><li> Cut a 30 degree taper on the very end of the threaded end of the brass nozzle.  This is to completely eliminate the internal gap between the brass nozzle and the PEEK thermal barrier.  This gap would exist due to the internal taper created by the cutting edge of the drill bit.
+</li><li> Remove the work piece and mount it by the threaded end so that the threaded end is centered in the lathe.
+</li><li> Cut-off any excess material.
+</li><li> Machine the nozzle tip to the desired profile.
+</li><li> Drill the nozzle orifice.
+</li><li> Using a number 8 drill bit, drill out the hole for the heater resistor.
+</li><li> Drill out the hole for the thermistor.
+</li></ol>
+<h5> <span class="mw-headline" id="Version_4">Version 4</span></h5>
+<p><a href="/wiki/File:Jhn_nozzle_ver4.jpg" class="image"><img alt="Jhn nozzle ver4.jpg" src="/mediawiki/images/thumb/9/99/Jhn_nozzle_ver4.jpg/200px-Jhn_nozzle_ver4.jpg" width="200" height="260" srcset="/mediawiki/images/thumb/9/99/Jhn_nozzle_ver4.jpg/300px-Jhn_nozzle_ver4.jpg 1.5x, /mediawiki/images/thumb/9/99/Jhn_nozzle_ver4.jpg/400px-Jhn_nozzle_ver4.jpg 2x" /></a>
+</p><p>OpenSCAD drawing:  <a rel="nofollow" class="external text" href="http://reprap.org/mediawiki/images/3/3f/Jhn_nozzle_v4.scad">Jhn_nozzle_v4.scad</a>
+</p><p>Material:  Brass Bar Stock, 1/2" Square, 1.000" Long
+</p><p>Finished Weight:  11.3 grams
+</p>
+<ol><li> Cut a piece of brass bar stock 1 inch long plus enough to adequately hold the stock in the lathe.
+</li><li> On the brass bar stock, find the center of the axis of the nozzle.  (The axis is centered at 0.250 +-0.001, from one edge, and 0.157 -0.000 +0.003 from an adjacent edge.)  This can be done by various means ranging from using a milling machine to using marking fluid, a height gauge, and a surface plate.
+</li><li> Mount the brass bar stock in a 4-jaw chuck on a lathe.  Adjust the chuck so that the nozzle axis is on center.
+</li><li> Turn the threaded end of the nozzle down to 0.3125 +0.000 -0.004.  This section is 0.500 +-0.005 long.
+</li><li> For the first 0.150 +-0.010, of the threaded section, down to an OD of 0.255 (6.5mm) +0.000 -0.002.
+</li><li> Thread the nozzle to 5/16-24 up to the shoulder of the heater section.
+</li><li> Drill out the center of the nozzle with a 3.5mm drill bit.  This will create a heat chamber that is the entire length of the brass nozzle.
+</li><li> Remove the work piece and mount it by the threaded end so that the threaded end is centered in the lathe.
+</li><li> Cut-off any excess material.
+</li><li> Machine the nozzle tip to the desired profile leaving the heater block section 0.325 thick.
+</li><li> Drill the nozzle orifice.
+</li><li> Using a size A drill bit, drill the heater resistor hole through the heater block section.
+</li><li> Drill the thermistor hole.
+</li></ol>
+<p>Note:  A size C Drill bit can be used if the heater resistor does not fit through the heater resistor hold.  Care needs to be taken to ensure that the drill bit does not break through into the melt chamber.  The remaining brass, between this hole and the edge opposite of the melt chamber, should be 0.020 +-0.002 thick.
+</p><p><br />
+</p>
+<h5> <span class="mw-headline" id="Version_4.1">Version 4.1</span></h5>
+<p>Instructions are identical to version 4.  However, the thermistor hole is drilled for out for Thermistor 5.
+</p>
+<h5> <span class="mw-headline" id="Version_4.2">Version 4.2</span></h5>
+<p>Coming soon.
+</p>
+<h5> <span class="mw-headline" id="Version_5">Version 5</span></h5>
+<p><a href="/wiki/File:Jhn_nozzle_ver5.JPG" class="image"><img alt="Jhn nozzle ver5.JPG" src="/mediawiki/images/thumb/2/2f/Jhn_nozzle_ver5.JPG/200px-Jhn_nozzle_ver5.JPG" width="200" height="258" srcset="/mediawiki/images/thumb/2/2f/Jhn_nozzle_ver5.JPG/300px-Jhn_nozzle_ver5.JPG 1.5x, /mediawiki/images/2/2f/Jhn_nozzle_ver5.JPG 2x" /></a>
+</p><p><br />
+Material: Aluminum Bar Stock, 1/2" Square, 1.000" Long 
+</p><p>Finished Weight: 3.7 grams 
+</p><p>Note: The primary reason for using aluminum is to save weight. The alloy should be 2024, 7075, or a similar harder, high quality, alloy. Softer alloys, such as 6061, are not recommended. 
+</p><p>The blueprint and instructions are identical to Version 4 of the J-Head Nozzle.
+</p>
+<h5> <span class="mw-headline" id="Version_6">Version 6</span></h5>
+<p>Material:  Brass Bar Stock, 1/2" Square, 1.000" Long
+</p><p>Finished Weight:  ~11.3 grams (will need verified)
+</p>
+<ol><li> Cut a piece of brass bar stock 1 inch long plus enough to adequately hold the stock in the lathe.
+</li><li> On the brass bar stock, find the center of the axis of the nozzle.  (The axis is centered at 0.250 +-0.001, from one edge, and 0.157 -0.000 +0.003 from an adjacent edge.)  This can be done by various means ranging from using a milling machine to using marking fluid, a height gauge, and a surface plate.
+</li><li> Mount the brass bar stock in a 4-jaw chuck on a lathe.  Adjust the chuck so that the nozzle axis is on center.
+</li><li> Turn the threaded end of the nozzle down to 0.3125 +0.000 -0.004.  This section is 0.500 +-0.005 long.
+</li><li> For the first 0.150 +-0.010, of the threaded section, down to an OD of 0.255 (6.5mm) +0.000 -0.002.
+</li><li> Thread the nozzle to 5/16-24 up to the shoulder of the heater section.
+</li><li> Drill out the center of the nozzle with a 3.5mm drill bit.  This will create a heat chamber that is the entire length of the brass nozzle.
+</li><li> Remove the work piece and mount it by the threaded end so that the threaded end is centered in the lathe.
+</li><li> Cut-off any excess material.
+</li><li> Machine the nozzle tip to the desired profile leaving the heater block section 0.325 thick.
+</li><li> Drill the nozzle orifice.
+</li><li> Using a size C drill bit, drill the heater resistor hole through the heater block section.  The remaining brass, between this hole and the edge opposite of the melt chamber, should be 0.020 +-0.002 thick.
+</li><li> Drill the thermistor hole.  (Change this....)
+</li></ol>
+<h4> <span class="mw-headline" id="Nozzle_Holder">Nozzle Holder</span></h4>
+<p>Notes:
+</p>
+<ol><li> PEEK nozzle holders have a maximum working temperature of roughly 248 degrees Celsius.  Due to many variables, it is highly recommended that this temperature is not to be approached.  Above this temperature, PEEK will melt and the hot-end will fail.  
+</li><li> PEEK normally is made in either tan or black and either color can be used.  Black is normally used as it looks better, however, at times suppliers may be out of one color and the other color can be substituted.
+</li></ol>
+<h5> <span class="mw-headline" id="Version_1_2">Version 1</span></h5>
+<p><a href="/wiki/File:Jhn_thermal_barrier.jpg" class="image"><img alt="Jhn thermal barrier.jpg" src="/mediawiki/images/thumb/3/31/Jhn_thermal_barrier.jpg/200px-Jhn_thermal_barrier.jpg" width="200" height="215" srcset="/mediawiki/images/thumb/3/31/Jhn_thermal_barrier.jpg/300px-Jhn_thermal_barrier.jpg 1.5x, /mediawiki/images/thumb/3/31/Jhn_thermal_barrier.jpg/400px-Jhn_thermal_barrier.jpg 2x" /></a>
+</p><p>Note:  Picture shown displays the 36.5mm nozzle holder without optional mounting groove.
+</p><p><a href="/wiki/File:Jhn_nozzle_holder_v1.jpg" class="image"><img alt="Jhn nozzle holder v1.jpg" src="/mediawiki/images/thumb/3/38/Jhn_nozzle_holder_v1.jpg/150px-Jhn_nozzle_holder_v1.jpg" width="150" height="101" srcset="/mediawiki/images/thumb/3/38/Jhn_nozzle_holder_v1.jpg/225px-Jhn_nozzle_holder_v1.jpg 1.5x, /mediawiki/images/thumb/3/38/Jhn_nozzle_holder_v1.jpg/300px-Jhn_nozzle_holder_v1.jpg 2x" /></a>
+</p><p>Material:  PEEK, 5/8" Round, 36.5mm Long Or 50mm Long
+</p><p>Note:  The length can be increased, if necessary.  (i.e. Increase the length to 50mm for the Sells Mendel and/or if the heat-sink is going to be installed.)  All dimensions on the hot-end side, of the thermal barrier, would remain the same.
+</p>
+<ol><li> Cut a piece of 5/8" round PEEK to length.
+</li><li> Drill out the PEEK using a 6.5mm drill bit.
+</li><li> Using a letter size Q drill bit, enlarge one end to a depth of 0.450 +-0.005.
+</li><li> Internally thread the end to 3/8-24 using a bottom tap.
+</li><li> (Optional) Turn a 0.500 -0.000 +0.005 shoulder for a distance of approximately 0.050.  (This will keep the support washer centered and insulated from the brass nozzle.)
+</li><li> (Optional) 4.76mm from the cold-end, turn a groove that is 4.64mm wide with an OD of 12mm.
+</li></ol>
+<h5> <span class="mw-headline" id="Version_2_2">Version 2</span></h5>
+<p><a href="/wiki/File:Jhn_nozzle_holder_v2_pic.jpg" class="image"><img alt="Jhn nozzle holder v2 pic.jpg" src="/mediawiki/images/thumb/9/96/Jhn_nozzle_holder_v2_pic.jpg/200px-Jhn_nozzle_holder_v2_pic.jpg" width="200" height="179" srcset="/mediawiki/images/thumb/9/96/Jhn_nozzle_holder_v2_pic.jpg/300px-Jhn_nozzle_holder_v2_pic.jpg 1.5x, /mediawiki/images/thumb/9/96/Jhn_nozzle_holder_v2_pic.jpg/400px-Jhn_nozzle_holder_v2_pic.jpg 2x" /></a>
+</p><p>Note:  Picture shown displays the 50mm nozzle holder with the optional mounting groove.  Not shown is the opposite end, which is threaded for the hollow-lock socket set screw.
+</p><p><a href="/wiki/File:Jhn_nozzle_holder_v2.jpg" class="image"><img alt="Jhn nozzle holder v2.jpg" src="/mediawiki/images/thumb/7/7d/Jhn_nozzle_holder_v2.jpg/150px-Jhn_nozzle_holder_v2.jpg" width="150" height="101" srcset="/mediawiki/images/thumb/7/7d/Jhn_nozzle_holder_v2.jpg/225px-Jhn_nozzle_holder_v2.jpg 1.5x, /mediawiki/images/thumb/7/7d/Jhn_nozzle_holder_v2.jpg/300px-Jhn_nozzle_holder_v2.jpg 2x" /></a>
+</p><p>Material:  PEEK, 5/8" Round, 36.5mm Long Or 50mm Long
+</p><p>Finished Weight:  9.6 grams (50mm, with mounting groove)
+</p><p>Note:  The length can be increased, if necessary.  (i.e. Increase the length to 50mm for the Sells Mendel and/or if the heat-sink is going to be installed.)  All dimensions on the hot-end side, of the thermal barrier, would remain the same.
+</p>
+<ol><li> Cut a piece of 5/8" round PEEK to length.
+</li><li> Drill out the PEEK using a 6.5mm drill bit.
+</li><li> Using a letter size Q drill bit, enlarge one end to a depth of 0.450 +-0.005.
+</li><li> Internally thread the end to 3/8-24 using a bottom tap.
+</li><li> (Optional) Turn a 0.500 -0.000 +0.005 shoulder for a distance of approximately 0.050.  (This will keep the support washer centered and insulated from the brass nozzle.)
+</li><li> Using a letter size I drill bit, drill out the cold end for a distance of 0.200.
+</li><li> Internally thread the cold end to 5/16-24.  (A special bottom tap has to be ground in order to finish threading this hole.  This tap will not have any incomplete threads.)
+</li><li> (Optional) 4.76mm from the cold-end, turn a groove that is 4.64mm wide with an OD of 12mm.
+</li></ol>
+<h5> <span class="mw-headline" id="Version_3_2">Version 3</span></h5>
+<p><a href="/wiki/File:Jhn_nozzle_holder_v3_pic.jpg" class="image"><img alt="Jhn nozzle holder v3 pic.jpg" src="/mediawiki/images/thumb/a/a1/Jhn_nozzle_holder_v3_pic.jpg/200px-Jhn_nozzle_holder_v3_pic.jpg" width="200" height="173" srcset="/mediawiki/images/thumb/a/a1/Jhn_nozzle_holder_v3_pic.jpg/300px-Jhn_nozzle_holder_v3_pic.jpg 1.5x, /mediawiki/images/thumb/a/a1/Jhn_nozzle_holder_v3_pic.jpg/400px-Jhn_nozzle_holder_v3_pic.jpg 2x" /></a>
+</p><p><a href="/wiki/File:Jhn_nozzle_holder_v3.jpg" class="image"><img alt="Jhn nozzle holder v3.jpg" src="/mediawiki/images/thumb/3/30/Jhn_nozzle_holder_v3.jpg/150px-Jhn_nozzle_holder_v3.jpg" width="150" height="101" srcset="/mediawiki/images/thumb/3/30/Jhn_nozzle_holder_v3.jpg/225px-Jhn_nozzle_holder_v3.jpg 1.5x, /mediawiki/images/thumb/3/30/Jhn_nozzle_holder_v3.jpg/300px-Jhn_nozzle_holder_v3.jpg 2x" /></a>
+</p><p>Material:  PEEK, 5/8" Round, 50mm Long
+</p><p>Finished Weight: 8.6 grams (50mm, with mounting groove) 
+</p>
+<ol><li> Cut a piece of 5/8" round PEEK to length.
+</li><li> Drill out the PEEK using a 6.5mm drill bit.
+</li><li> Using a letter size Q drill bit, enlarge one end to a depth of 0.450 +-0.005.
+</li><li> Internally thread the end to 3/8-24 using a bottom tap.
+</li><li> (Optional) Turn a 0.500 -0.000 +0.005 shoulder for a distance of approximately 0.050.  (This will keep the support washer centered and insulated from the brass nozzle.)
+</li><li> Using a letter size I drill bit, drill out the cold end for a distance of 0.200.
+</li><li> Internally thread the cold end to 5/16-24.  (A special bottom tap has to be ground in order to finish threading this hole.  This tap will not have any incomplete threads.)
+</li><li> (Optional) 4.76mm from the cold-end, turn a groove that is 4.64mm wide with an OD of 12mm.
+</li><li> Using a 3/8" drill bit, drill heat-sink hole 0.787 -0.000 +0.040 from the hot-end.
+</li></ol>
+<h5> <span class="mw-headline" id="Version_4_2">Version 4</span></h5>
+<p><a href="/wiki/File:Jhn_nozzle_holder_v4_pic.jpg" class="image"><img alt="Jhn nozzle holder v4 pic.jpg" src="/mediawiki/images/thumb/5/5c/Jhn_nozzle_holder_v4_pic.jpg/200px-Jhn_nozzle_holder_v4_pic.jpg" width="200" height="148" srcset="/mediawiki/images/thumb/5/5c/Jhn_nozzle_holder_v4_pic.jpg/300px-Jhn_nozzle_holder_v4_pic.jpg 1.5x, /mediawiki/images/thumb/5/5c/Jhn_nozzle_holder_v4_pic.jpg/400px-Jhn_nozzle_holder_v4_pic.jpg 2x" /></a>
+</p><p><a href="/wiki/File:Jhn_nozzle_holder_v4.jpg" class="image"><img alt="Jhn nozzle holder v4.jpg" src="/mediawiki/images/thumb/5/58/Jhn_nozzle_holder_v4.jpg/150px-Jhn_nozzle_holder_v4.jpg" width="150" height="101" srcset="/mediawiki/images/thumb/5/58/Jhn_nozzle_holder_v4.jpg/225px-Jhn_nozzle_holder_v4.jpg 1.5x, /mediawiki/images/thumb/5/58/Jhn_nozzle_holder_v4.jpg/300px-Jhn_nozzle_holder_v4.jpg 2x" /></a>
+</p><p>Material:  PEEK, 5/8" Round, 36.5mm or 50mm Long
+</p><p>Finished Weight:  7.5 grams (50mm, w/mounting groove)
+</p>
+<ol><li> Start with a completed version 2 nozzle holder.
+</li><li> Optional:  At the hot end of the nozzle holder, mill two flats opposite of each-other for using a 1/2" (13mm) open end wrench.  Each flat will be 0.250 (6.5mm) wide and 0.250 (6.5mm) from the axis of the nozzle holder.
+</li><li> Mount the nozzle holder in an indexer on a milling machine.
+</li><li> Equip the milling machine with a 2mm or 3/32 end mill.  (The dimensions of the end mill do not have to be very precise.  If desired, a ball end-mill can be used in order to mill out grooves with the bottom rounded.)
+</li><li> Start the first groove so that it's edge is 0.600" from the hot-end of the nozzle holder.
+</li><li> Mill 3 grooves (36.5mm version) or 5 grooves (50mm version) as follows.  The grooves will be interrupted for the supports. 
+<ol><li> Each groove is 0.150" deep.
+</li><li> The centers, of each groove, are 0.125" apart.
+</li><li> Each groove has an angular cut of 90 degrees and is milled between the following angles:  0-90, 120-210, 240-330
+</li><li> Each groove support is drilled out at the following angles with the center, of it's support, at 90 degrees to the end mill:  15, 135, 255
+</li><li> To drill out each groove support, the end-mill is positioned so that it's edge, towards the center of the nozzle holder, is 0.150" from the outer edge of the nozzle holder.
+</li></ol>
+</li></ol>
+<h5> <span class="mw-headline" id="Version_5_2">Version 5</span></h5>
+<p><a href="/wiki/File:Jhn_nozzle_holder_v5_pic.jpg" class="image"><img alt="Jhn nozzle holder v5 pic.jpg" src="/mediawiki/images/thumb/3/33/Jhn_nozzle_holder_v5_pic.jpg/200px-Jhn_nozzle_holder_v5_pic.jpg" width="200" height="155" srcset="/mediawiki/images/thumb/3/33/Jhn_nozzle_holder_v5_pic.jpg/300px-Jhn_nozzle_holder_v5_pic.jpg 1.5x, /mediawiki/images/thumb/3/33/Jhn_nozzle_holder_v5_pic.jpg/400px-Jhn_nozzle_holder_v5_pic.jpg 2x" /></a>
+</p><p><a href="/wiki/File:Jhn_nozzle_holder_v5.jpg" class="image"><img alt="Jhn nozzle holder v5.jpg" src="/mediawiki/images/thumb/2/26/Jhn_nozzle_holder_v5.jpg/150px-Jhn_nozzle_holder_v5.jpg" width="150" height="101" srcset="/mediawiki/images/thumb/2/26/Jhn_nozzle_holder_v5.jpg/225px-Jhn_nozzle_holder_v5.jpg 1.5x, /mediawiki/images/thumb/2/26/Jhn_nozzle_holder_v5.jpg/300px-Jhn_nozzle_holder_v5.jpg 2x" /></a>
+Early SAE Blueprint
+</p><p>NOTE:  This blueprint shows three supports.  Four supports are now used as per the new blueprint, below.
+</p><p><a href="/wiki/File:Jhn_nozzle_holder_v5_metric.jpg" class="image"><img alt="Jhn nozzle holder v5 metric.jpg" src="/mediawiki/images/thumb/8/8c/Jhn_nozzle_holder_v5_metric.jpg/150px-Jhn_nozzle_holder_v5_metric.jpg" width="150" height="106" srcset="/mediawiki/images/thumb/8/8c/Jhn_nozzle_holder_v5_metric.jpg/225px-Jhn_nozzle_holder_v5_metric.jpg 1.5x, /mediawiki/images/thumb/8/8c/Jhn_nozzle_holder_v5_metric.jpg/300px-Jhn_nozzle_holder_v5_metric.jpg 2x" /></a>
+Current Metric Blueprint
+</p><p><br />
+Material:  PEEK, 5/8" Round, 40mm Long
+</p><p>Finished Weight:  5.5 grams 
+</p>
+<ol><li> Cut a piece of 5/8" round PEEK to length
+</li><li> Drill out the center of the PEEK using a 6.5mm drill bit.
+</li><li> Using a letter size I drill bit, enlarge one end to a depth of 0.450 +-0.010.
+</li><li> Drill out 0.125 +-0.005, from this end, to an ID of 0.320 +-0.005.
+</li><li> Internally thread the end to 5/16-24 using a bottom tap.  Ensure that the threads are cut no deeper than 0.450.
+</li><li> Taper the hot-end such that there is a 30 degree taper that starts at 5mm from the axis of the nozzle and tapers outwards to the OD.  Optionally, a shoulder could be cut in place of a taper.  The purpose of this taper is to reduce the amount of contact the PEEK has with the brass.
+</li><li> Using a letter size I drill bit, drill out the cold end for a distance of 0.300.
+</li><li> Internally thread the cold end to 5/16-24.  
+</li><li> Optional:  4.76mm from the cold end, turn a groove that is 4.64mm wide with a root of 12mm.
+</li><li> Optional:  At the hot end of the nozzle holder, mill two flats opposite of each-other for using a 1/2" (13mm) open end wrench.  Each flat will be 0.250 (6.5mm) wide and 0.250 (6.5mm) from the axis of the nozzle holder.
+</li><li> Mount the nozzle holder in an indexer on a milling machine.
+</li><li> Equip the milling machine with a 2mm or 3/32 end mill.  (The dimensions of the end mill do not have to be very precise.)
+</li><li> Start the first groove so that it's edge is 0.500" from the hot-end of the nozzle holder.
+</li><li> Mill 5 grooves as follows.  The grooves will be interrupted for the four supports. 
+<ol><li> Each groove is 0.150" deep.
+</li><li> The centers, of each groove, are 0.125" apart.
+</li><li> Each groove has an angular cut of 60 degrees and is milled between the following angles:  0-60, 90-150, 180-240, 270-330
+</li><li> Each groove support is drilled out at the following angles with the center, of it's support, at 90 degrees to the end mill:  75, 165, 255, 345
+</li><li> To drill out each groove support, the end-mill is positioned so that it's edge, towards the center of the nozzle holder, is 0.150" from the outer edge of the nozzle holder.
+</li></ol>
+</li></ol>
+<p><br />
+Improvements:
+</p><p>Over time, slight improvements were added to this nozzle holder.  The most reliable version has modifications to the groove closest to the brass nozzle.  In this groove, the supports are not drilled out and the groove is milled to 0.130" deep.  These changes add extra strength to this area.
+</p>
+<h5> <span class="mw-headline" id="Version_6_2">Version 6</span></h5>
+<p>Coming soon.
+</p>
+<h5> <span class="mw-headline" id="Experimental.2C_Fluted">Experimental, Fluted</span></h5>
+<p><a href="/wiki/File:Jhn_x_sl.jpg" class="image"><img alt="Jhn x sl.jpg" src="/mediawiki/images/thumb/9/9f/Jhn_x_sl.jpg/200px-Jhn_x_sl.jpg" width="200" height="157" srcset="/mediawiki/images/thumb/9/9f/Jhn_x_sl.jpg/300px-Jhn_x_sl.jpg 1.5x, /mediawiki/images/thumb/9/9f/Jhn_x_sl.jpg/400px-Jhn_x_sl.jpg 2x" /></a>
+</p><p><a href="/wiki/File:Jhn_nozzle_holder_fluted.gif" class="image"><img alt="Jhn nozzle holder fluted.gif" src="/mediawiki/images/thumb/1/18/Jhn_nozzle_holder_fluted.gif/150px-Jhn_nozzle_holder_fluted.gif" width="150" height="101" srcset="/mediawiki/images/thumb/1/18/Jhn_nozzle_holder_fluted.gif/225px-Jhn_nozzle_holder_fluted.gif 1.5x, /mediawiki/images/thumb/1/18/Jhn_nozzle_holder_fluted.gif/300px-Jhn_nozzle_holder_fluted.gif 2x" /></a>
+</p><p>Material:  PEEK, 5/8" Round, 50mm Long
+</p><p>Finished Weight:  5.5 grams
+</p><p>Note:  This nozzle holder is turned down and fluted in order to reduce the weight.
+</p>
+<ol><li> Start with a completed version 2 nozzle holder.
+</li><li> From the hot-end, turn the first 0.600 down to 0.550.
+</li><li> Turn the section to be fluted down to 12mm.
+</li><li> Mount the nozzle holder in an indexer on a milling machine.
+</li><li> Using a 2mm ball end-mill, cut 12 flutes along the length of the center section.  Each flute will be cut about 0.070 deep and will be cut at 30 degree intervals.
+</li></ol>
+<h4> <span class="mw-headline" id="Heat_Sink">Heat Sink</span></h4>
+<h5> <span class="mw-headline" id="Version_1_3">Version 1</span></h5>
+<p><a href="/wiki/File:Jhn_heat_sink.JPG" class="image"><img alt="Jhn heat sink.JPG" src="/mediawiki/images/thumb/5/56/Jhn_heat_sink.JPG/200px-Jhn_heat_sink.JPG" width="200" height="140" srcset="/mediawiki/images/thumb/5/56/Jhn_heat_sink.JPG/300px-Jhn_heat_sink.JPG 1.5x, /mediawiki/images/thumb/5/56/Jhn_heat_sink.JPG/400px-Jhn_heat_sink.JPG 2x" /></a>
+</p><p><a href="/wiki/File:Jhn_heat_sink.jpg" class="image"><img alt="Jhn heat sink.jpg" src="/mediawiki/images/thumb/c/c1/Jhn_heat_sink.jpg/150px-Jhn_heat_sink.jpg" width="150" height="113" srcset="/mediawiki/images/thumb/c/c1/Jhn_heat_sink.jpg/225px-Jhn_heat_sink.jpg 1.5x, /mediawiki/images/thumb/c/c1/Jhn_heat_sink.jpg/300px-Jhn_heat_sink.jpg 2x" /></a>
+</p><p><a href="/wiki/File:Jhn_heat_sink_installed.jpg" class="image"><img alt="Jhn heat sink installed.jpg" src="/mediawiki/images/thumb/8/80/Jhn_heat_sink_installed.jpg/50px-Jhn_heat_sink_installed.jpg" width="50" height="92" srcset="/mediawiki/images/thumb/8/80/Jhn_heat_sink_installed.jpg/75px-Jhn_heat_sink_installed.jpg 1.5x, /mediawiki/images/thumb/8/80/Jhn_heat_sink_installed.jpg/100px-Jhn_heat_sink_installed.jpg 2x" /></a> <a href="/wiki/File:Jhn_heat_sink_internal_view.jpg" class="image"><img alt="Jhn heat sink internal view.jpg" src="/mediawiki/images/thumb/5/52/Jhn_heat_sink_internal_view.jpg/50px-Jhn_heat_sink_internal_view.jpg" width="50" height="62" srcset="/mediawiki/images/thumb/5/52/Jhn_heat_sink_internal_view.jpg/75px-Jhn_heat_sink_internal_view.jpg 1.5x, /mediawiki/images/thumb/5/52/Jhn_heat_sink_internal_view.jpg/100px-Jhn_heat_sink_internal_view.jpg 2x" /></a>
+</p><p>Material:  Aluminum, 3/8" Round, 1.160" Long
+</p><p>Finished Weight: 3.6 grams 
+</p>
+<ol><li> Cut a piece of 3/8" round aluminum to length.
+</li><li> Using a 1mm (0.040) cutoff tool, make 3 grooves in each end.  The grooves will be 0.050 deep and 1mm apart.
+</li><li> Using a 6.5mm drill bit, cross-drill the heat-sink to create the PTFE liner passage.  This hole is to be centered in both directions.
+</li><li>  (Optional)  Drill out each end for 0.350 with a number 25 drill bit.  These holes are to lighten the heat sink.
+</li></ol>
+<p>Modifying the Nozzle Holder:
+</p><p>Note:  Due to there being slightly less than 12mm clearance with a 36.5mm nozzle holder, between the cold-end of the nozzle holder and the heat sink, using a 50mm nozzle holder is advisable.  (Different thermal barrier lengths are shown in the above pictures.)
+</p>
+<ol><li> If it is desirable to orient the heat sink in a certain direction relative to the brass nozzle, install the brass nozzle.
+</li><li> Using a 3/8" drill bit, cross-drill the nozzle holder so that the center of the hole is 0.787 -0.000 +0.040 from the hot end.
+</li></ol>
+<p><br />
+</p>
+<h4> <span class="mw-headline" id="PTFE_Liner">PTFE Liner</span></h4>
+<h5> <span class="mw-headline" id="Version_1_4">Version 1</span></h5>
+<p><a href="/wiki/File:Jhn_ptfe_liner.jpg" class="image"><img alt="Jhn ptfe liner.jpg" src="/mediawiki/images/thumb/9/94/Jhn_ptfe_liner.jpg/300px-Jhn_ptfe_liner.jpg" width="300" height="143" srcset="/mediawiki/images/thumb/9/94/Jhn_ptfe_liner.jpg/450px-Jhn_ptfe_liner.jpg 1.5x, /mediawiki/images/thumb/9/94/Jhn_ptfe_liner.jpg/600px-Jhn_ptfe_liner.jpg 2x" /></a>
+</p><p>Material:  PTFE tubing, 0.250" OD, 0.125" ID (metric: 6.35 mm OD, 3.175mm ID)
+</p>
+<ol><li> Using a razor knife, cut the tubing to desired length.  The length is dependent upon the length of the nozzle holder used.  
+</li><li> Cut an approximately 30 degree (or greater) taper on what will be the hot-end of the PTFE liner.
+</li><li> Optional:  An internal taper can be made, on the cold end, by chucking the liner in a lathe and using a center drill.  This taper improves the initial feeding of the filament into the hot-end.
+</li></ol>
+<p>Note:  The prototype nozzle has worked without this taper.  However, the taper would not have to be too precise as PTFE is quite flexible.  If a lathe is not available, it may be possible to cut a workable taper with a pencil sharpener.
+</p><p><br />
+</p>
+<h5> <span class="mw-headline" id="Version_2_3">Version 2</span></h5>
+<p><a href="/wiki/File:Jhn_ptfe_liner2.jpg" class="image"><img alt="Jhn ptfe liner2.jpg" src="/mediawiki/images/thumb/3/3d/Jhn_ptfe_liner2.jpg/200px-Jhn_ptfe_liner2.jpg" width="200" height="324" srcset="/mediawiki/images/thumb/3/3d/Jhn_ptfe_liner2.jpg/300px-Jhn_ptfe_liner2.jpg 1.5x, /mediawiki/images/thumb/3/3d/Jhn_ptfe_liner2.jpg/400px-Jhn_ptfe_liner2.jpg 2x" /></a>
+</p><p>Material:  PTFE tubing, 0.250" OD, 0.125" ID (metric: 6.35 mm OD, 3.175mm ID)
+</p>
+<ol><li> Using a razor knife, cut the tubing to slightly over 1 inch long.
+</li><li> In a lathe, face off what will become the cold end.
+</li><li> Cut an internal taper, on the cold end, by chucking the liner in a lathe and using a center drill.  This taper improves the initial feeding of the filament into the hot-end.
+</li><li> Turn the liner around in the chuck.  Cut and face-off the liner so that it's total length is 0.915".
+</li></ol>
+<p><br />
+</p>
+<h4> <span class="mw-headline" id="1.75mm_Conversion">1.75mm Conversion</span></h4>
+<h5> <span class="mw-headline" id="Mk_II_To_Mk_IV_Series_Hot-Ends">Mk II To Mk IV Series Hot-Ends</span></h5>
+<p>Two machined parts are required in order to convert a Mk I to Mk IV J-Head hot-end to use 1.75mm filament.  They are the PEEK hollow set screw and the 1.75mm PTFE liner.  In addition, if the nozzle has a melt chamber, it must be drilled out to 2mm as opposed to 3.5mm.
+</p><p>A quicker way, to perform the conversion, is to omit the PEEK hollow set screw and use a normal 5/16-24 hollow set screw.  Drill the cold end of the 1.75mm PTFE liner out to 4mm for a depth of about 0.250".  Then, install the PTFE liner and hollow set-screw.  Take a piece of 4mm OD, 2mm ID PTFE tubing and install it in the cold end so that the tubing has bottomed-out in the liner.  Then, cut the tubing to length with a razor knife.
+</p>
+<h6> <span class="mw-headline" id="PEEK_hollow_set_screw">PEEK hollow set screw</span></h6>
+<p>Material:  PEEK, 5/16" round, 0.200" long
+</p>
+<ol><li> If 5/16" PEEK is not available, turn down a small piece of 3/8" PEEK on a lathe.
+</li><li> Externally thread the PEEK to 5/16-24.
+</li><li> With a center drill, start a hole on the end.  The taper, of the center drill, should be large enough to act as a guide when starting the filament.
+</li><li> From the end of the PEEK rod, drill a hole about 0.250 deep with a 2mm drill bit.
+</li><li> Cut off the hollow set screw so that it is about 0.200" long.
+</li><li> Cut a slot, in the tapered end of the set screw, for a flat screwdriver.  Note:  A holder will probably have to be machined in order to prevent damage to the set screw when holding it in a vise.
+</li><li> Deburr the set screw and clean up the threads.
+</li></ol>
+<h6> <span class="mw-headline" id="1.75mm_PTFE_Liner">1.75mm PTFE Liner</span></h6>
+<p>Material:  PTFE, 1/4" round, 2.5" long
+</p>
+<ol><li> Using a lathe, put a 30 degree taper on one end.
+</li><li> Drill this end out as far as possible with a 2mm drill bit.  (The hole should be started with a center drill.)
+</li><li> Remove the liner, from the lathe, and test fit into the hot-end.  (At this point, the hot-end is the brass nozzle with the PEEK nozzle holder installed.)  Make a mark, with a razor knife, where the liner exits the hot-end.
+</li><li> Remove the liner from the hot-end.  Cut the liner about 4.5mm closer to the hot end of the liner from the mark you just made.
+</li><li> Put the liner in the lathe with the cold end of it sticking out.  
+</li><li> Face off the end.
+</li><li> Center drill with a center drill large enough to create an inside taper when completed.  This taper will help to start the filament into the liner.
+</li><li> Using a 2mm drill bit, drill out this end of the liner only until the hole connects with the 2mm hole drilled from the opposite end.  The inside of the liner must be as smooth as possible from the hot end of the liner to where the two holes meet. 
+</li><li> If omitting the PEEK set-screw, drill out the cold end to a depth of 0.250" with a 4mm drill bit.
+</li></ol>
+<h5> <span class="mw-headline" id="Mk_V_and_Later_Hot_Ends">Mk V and Later Hot Ends</span></h5>
+<p>Note:  To do a proper conversion, the brass nozzle should have been machined with the melt chamber drilled out to 2mm as opposed to 3.5mm.
+</p><p>Material:  PTFE, 1/4" round, 1.0" long
+</p>
+<ol><li> Using a lathe, face off both ends and reduce the total length to 0.920" +- 0.010".
+</li><li> Drill out the center with a 2mm drill bit.
+</li><li> Drill out one end, with a 4mm drill bit, to 0.100".
+</li></ol>
+<p>During installation, after the hollow set-screw has been installed, use a piece of 4mm OD/ 2mm ID PTFE tubing and install it in the cold end of the hot-end.  This will act as a filament guide through the hollow set-screw.
+</p>
+<h3> <span class="mw-headline" id="Off-The-Shelf_Parts">Off-The-Shelf Parts</span></h3>
+<h4> <span class="mw-headline" id="Heater_Resistor">Heater Resistor</span></h4>
+<h5> <span class="mw-headline" id="5.6_ohm_.28Large_Standard.29">5.6 ohm (Large Standard)</span></h5>
+<p><a href="/wiki/File:Jhn_heater_resistor_5_6.jpg" class="image"><img alt="Jhn heater resistor 5 6.jpg" src="/mediawiki/images/thumb/6/6c/Jhn_heater_resistor_5_6.jpg/300px-Jhn_heater_resistor_5_6.jpg" width="300" height="109" srcset="/mediawiki/images/thumb/6/6c/Jhn_heater_resistor_5_6.jpg/450px-Jhn_heater_resistor_5_6.jpg 1.5x, /mediawiki/images/thumb/6/6c/Jhn_heater_resistor_5_6.jpg/600px-Jhn_heater_resistor_5_6.jpg 2x" /></a>
+</p><p>Description:  Axial, 5.6 ohm, 1%, 5W 	
+</p><p>Part Number:  UB5C-5.6-ND 
+</p><p>Weight:  1.6 grams
+</p><p>Note:  If this resistor is unavailable, the 6.8 ohm (Large Alternate) resistor can be used.
+</p>
+<h5> <span class="mw-headline" id="6.8_ohm_.28Large_Alternate.29">6.8 ohm (Large Alternate)</span></h5>
+<p>Description:  Axial, 6.8 ohm, 5%, 3W
+</p><p>Part Number:  W21-6R8JI
+</p><p>Note:  The outside diameter tolerance, of this resistor, is very loose.  Because of this, the resistor will usually fit loosely in the hole.  In order to install this resistor, fire cement or muffler putty is almost mandatory.
+</p>
+<h5> <span class="mw-headline" id="6.8_ohm_.28Small.29">6.8 ohm (Small)</span></h5>
+<p>Description:  Axial, 6.8 ohm, 5%, 3W
+</p><p>Part Number:  RWMA-6.8CT-ND
+</p><p>Weight:  1.1 grams
+</p><p><br />
+</p>
+<h4> <span class="mw-headline" id="Support_Washer">Support Washer</span></h4>
+<p><a href="/wiki/File:Jhn_support_washer.jpg" class="image"><img alt="Jhn support washer.jpg" src="/mediawiki/images/thumb/f/f0/Jhn_support_washer.jpg/200px-Jhn_support_washer.jpg" width="200" height="212" srcset="/mediawiki/images/thumb/f/f0/Jhn_support_washer.jpg/300px-Jhn_support_washer.jpg 1.5x, /mediawiki/images/thumb/f/f0/Jhn_support_washer.jpg/400px-Jhn_support_washer.jpg 2x" /></a>
+</p><p>The support washer is optional.  It can be drilled out with 3mm holes and M3 threaded rod can be used in order to provide additional support for the hot-end.  If the support washer is not used, the nozzle holder can be secured in the extruder by using other means.
+</p><p>Note:  Support, for the support washer, was discontinued with the Mk V series hot-ends.
+</p>
+<h4> <span class="mw-headline" id="Thermistors">Thermistors</span></h4>
+<h5> <span class="mw-headline" id="Thermistor_1">Thermistor 1</span></h5>
+<p>Note:  Original 100k Thermistor
+</p><p><br />
+<a href="/wiki/File:Jhn_thermistor.jpg" class="image"><img alt="Jhn thermistor.jpg" src="/mediawiki/images/thumb/7/79/Jhn_thermistor.jpg/300px-Jhn_thermistor.jpg" width="300" height="87" srcset="/mediawiki/images/thumb/7/79/Jhn_thermistor.jpg/450px-Jhn_thermistor.jpg 1.5x, /mediawiki/images/thumb/7/79/Jhn_thermistor.jpg/600px-Jhn_thermistor.jpg 2x" /></a>
+</p><p>Part Number:  B57560G104F (Replacement Part B57550G1104&#160;?)
+</p><p>Manufacturer:  EPCOS
+</p><p>Description:  NTC thermistor sealed in glass body
+</p><p>Tolerance:  1%
+</p><p>Data Sheet:  <a rel="nofollow" class="external text" href="http://www.epcos.com/inf/50/db/ntc_09/Glass_enc_Sensors__B57560__G560__G1560.pdf">NTC Thermistors For Temperature Measurement</a>
+</p><p>Diameter of Glass Bead:  2.3mm +-0.2mm
+</p><p>Length of Glass Bead:  4.1mm +-0.5mm
+</p><p>Lead Length:  67mm +-0.5mm
+</p><p>Lead Diameter:  0.3mm
+</p><p><br />
+</p><p>Recommended Beta:  4066
+</p><p>If using Sprinter firmware, select temperature table #1.
+</p><p><br />
+
+#define NUMTEMPS 61
+
+    short temptable[][2] = {
+
+{ 23 , 300 },
+
+{ 25 , 295 },
+
+{ 27 , 290 },
+
+{ 28 , 285 },
+
+{ 31 , 280 },
+
+{ 33 , 275 },
+
+{ 35 , 270 },
+
+{ 38 , 265 },
+
+{ 41 , 260 },
+
+{ 44 , 255 },
+
+{ 48 , 250 },
+
+{ 52 , 245 },
+
+{ 56 , 240 },
+
+{ 61 , 235 },
+
+{ 66 , 230 },
+
+{ 71 , 225 },
+
+{ 78 , 220 },
+
+{ 84 , 215 },
+
+{ 92 , 210 },
+
+{ 100 , 205 },
+
+{ 109 , 200 },
+
+{ 120 , 195 },
+
+{ 131 , 190 },
+
+{ 143 , 185 },
+
+{ 156 , 180 },
+
+{ 171 , 175 },
+
+{ 187 , 170 },
+
+{ 205 , 165 },
+
+{ 224 , 160 },
+
+{ 245 , 155 },
+
+{ 268 , 150 },
+
+{ 293 , 145 },
+
+{ 320 , 140 },
+
+{ 348 , 135 },
+
+{ 379 , 130 },
+
+{ 411 , 125 },
+
+{ 445 , 120 },
+
+{ 480 , 115 },
+
+{ 516 , 110 },
+
+{ 553 , 105 },
+
+{ 591 , 100 },
+
+{ 628 , 95 },
+
+{ 665 , 90 },
+
+{ 702 , 85 },
+
+{ 737 , 80 },
+
+{ 770 , 75 },
+
+{ 801 , 70 },
+
+{ 830 , 65 },
+
+{ 857 , 60 },
+
+{ 881 , 55 },
+
+{ 903 , 50 },
+
+{ 922 , 45 },
+
+{ 939 , 40 },
+
+{ 954 , 35 },
+
+{ 966 , 30 },
+
+{ 977 , 25 },
+
+{ 985 , 20 },
+
+{ 993 , 15 },
+
+{ 999 , 10 },
+
+{ 1004 , 5 },
+
+{ 1008 , 0 }
+ 
+};
+
+</p>
+<h5> <span class="mw-headline" id="Thermistor_5">Thermistor 5</span></h5>
+<p><a href="/wiki/File:Jhn_thermistor2.jpg" class="image"><img alt="Jhn thermistor2.jpg" src="/mediawiki/images/thumb/f/f7/Jhn_thermistor2.jpg/300px-Jhn_thermistor2.jpg" width="300" height="195" srcset="/mediawiki/images/thumb/f/f7/Jhn_thermistor2.jpg/450px-Jhn_thermistor2.jpg 1.5x, /mediawiki/images/thumb/f/f7/Jhn_thermistor2.jpg/600px-Jhn_thermistor2.jpg 2x" /></a>
+</p><p>Part Number:  104GT-2
+</p><p>Manufacturer:  Semitec
+</p><p>Description:   NTC 100k ohm 3% 
+</p><p>Tolerance:  3%
+</p><p>Data Sheet:    <a rel="nofollow" class="external text" href="http://www.semitec-usa.com/downloads/gtthermistor.pdf">High Heat-Resistance and High Sensitive Thermistor</a> 
+</p><p>Diameter of Glass Bead:  1.35mm +-0.15mm
+</p><p>Length of Glass Bead:  3mm +-1mm
+</p><p>Lead Length:  45mm +-1mm
+</p><p>Lead Diameter:  0.15mm to 0.18mm
+</p><p>If using Sprinter firmware, select temperature table #5.
+</p><p><br />
+</p>
+<h4> <span class="mw-headline" id="Ceramic_Heater_Cartridge">Ceramic Heater Cartridge</span></h4>
+<p><a href="/wiki/File:Jhn_heater_cartridge.jpg" class="image"><img alt="Jhn heater cartridge.jpg" src="/mediawiki/images/thumb/e/eb/Jhn_heater_cartridge.jpg/300px-Jhn_heater_cartridge.jpg" width="300" height="114" srcset="/mediawiki/images/thumb/e/eb/Jhn_heater_cartridge.jpg/450px-Jhn_heater_cartridge.jpg 1.5x, /mediawiki/images/thumb/e/eb/Jhn_heater_cartridge.jpg/600px-Jhn_heater_cartridge.jpg 2x" /></a>
+</p>
+<h2> <span class="mw-headline" id="Assembly">Assembly</span></h2>
+<h3> <span class="mw-headline" id="Photo_Series_with_detailed_assembly_instructions_for_current_version_of_JHead">Photo Series with detailed assembly instructions for current version of JHead</span></h3>
+<p>wiki.openhardware.co.za/index.php/Assembly_and_Wiring_of_a_J-Head_Hotend
+</p><p><a href="/wiki/File:Checkjhead.jpg" class="image"><img alt="Checkjhead.jpg" src="/mediawiki/images/thumb/b/b0/Checkjhead.jpg/150px-Checkjhead.jpg" width="150" height="113" srcset="/mediawiki/images/thumb/b/b0/Checkjhead.jpg/225px-Checkjhead.jpg 1.5x, /mediawiki/images/thumb/b/b0/Checkjhead.jpg/300px-Checkjhead.jpg 2x" /></a>
+<a href="/wiki/File:Kaptonleg2.jpg" class="image"><img alt="Kaptonleg2.jpg" src="/mediawiki/images/thumb/a/a0/Kaptonleg2.jpg/150px-Kaptonleg2.jpg" width="150" height="113" srcset="/mediawiki/images/thumb/a/a0/Kaptonleg2.jpg/225px-Kaptonleg2.jpg 1.5x, /mediawiki/images/thumb/a/a0/Kaptonleg2.jpg/300px-Kaptonleg2.jpg 2x" /></a>
+<a href="/wiki/File:Insertresistor.jpg" class="image"><img alt="Insertresistor.jpg" src="/mediawiki/images/thumb/a/ac/Insertresistor.jpg/150px-Insertresistor.jpg" width="150" height="113" srcset="/mediawiki/images/thumb/a/ac/Insertresistor.jpg/225px-Insertresistor.jpg 1.5x, /mediawiki/images/thumb/a/ac/Insertresistor.jpg/300px-Insertresistor.jpg 2x" /></a>
+<a href="/wiki/File:Tapetherm.jpg" class="image"><img alt="Tapetherm.jpg" src="/mediawiki/images/thumb/f/f2/Tapetherm.jpg/150px-Tapetherm.jpg" width="150" height="113" srcset="/mediawiki/images/thumb/f/f2/Tapetherm.jpg/225px-Tapetherm.jpg 1.5x, /mediawiki/images/thumb/f/f2/Tapetherm.jpg/300px-Tapetherm.jpg 2x" /></a>
+<a href="/wiki/File:Donejhead.jpg" class="image"><img alt="Donejhead.jpg" src="/mediawiki/images/thumb/8/8a/Donejhead.jpg/150px-Donejhead.jpg" width="150" height="113" srcset="/mediawiki/images/thumb/8/8a/Donejhead.jpg/225px-Donejhead.jpg 1.5x, /mediawiki/images/thumb/8/8a/Donejhead.jpg/300px-Donejhead.jpg 2x" /></a>
+</p><p><br />
+Full instructions posted on the OpenHardware.co.za Wiki: <a rel="nofollow" class="external free" href="http://wiki.openhardware.co.za/index.php/Assembly_and_Wiring_of_a_J-Head_Hotend">http://wiki.openhardware.co.za/index.php/Assembly_and_Wiring_of_a_J-Head_Hotend</a>
+</p>
+<h3> <span class="mw-headline" id="Mk_I_2">Mk I</span></h3>
+<p><a href="/wiki/File:Jhn_assembly.jpg" class="image"><img alt="Jhn assembly.jpg" src="/mediawiki/images/thumb/5/5c/Jhn_assembly.jpg/400px-Jhn_assembly.jpg" width="400" height="132" srcset="/mediawiki/images/thumb/5/5c/Jhn_assembly.jpg/600px-Jhn_assembly.jpg 1.5x, /mediawiki/images/thumb/5/5c/Jhn_assembly.jpg/800px-Jhn_assembly.jpg 2x" /></a>  <a href="/wiki/File:Jhn_assembled_w_washer.jpg" class="image"><img alt="Jhn assembled w washer.jpg" src="/mediawiki/images/thumb/b/ba/Jhn_assembled_w_washer.jpg/150px-Jhn_assembled_w_washer.jpg" width="150" height="155" srcset="/mediawiki/images/thumb/b/ba/Jhn_assembled_w_washer.jpg/225px-Jhn_assembled_w_washer.jpg 1.5x, /mediawiki/images/thumb/b/ba/Jhn_assembled_w_washer.jpg/300px-Jhn_assembled_w_washer.jpg 2x" /></a>
+</p><p><br />
+</p>
+<ol><li> Secure the brass nozzle in a vise by the heater section.
+</li><li> Optionally, install the support washer.  If the support washer is to be used, drill the appropriate holes for the support rods prior to installation.  (Note:  The above pictures do not have holes drilled as it is possible that the hole locations could vary.)
+</li><li> Screw the nozzle holder down into the nozzle.  If necessary, use a pair of pliers to tighten the nozzle.  The nozzle holder can be protected from the pliers by first wrapping it with a rag or paper towel.
+</li><li> Using a dental pick, straightened out paper clip, small screw driver, etc., ensure that the nozzle holder is screwed down all the way by feeling for an internal gap between the brass and the nozzle holder.  If a gap can be felt, screw the nozzle holder even tighter.  If there is a gap, the PTFE liner can "flow" into the gap and eventually cause the print head to fail.
+</li><li> Slide the PTFE liner down into the thermal barrier.  The liner must be inserted by the tapered end and it is important that the tapered end is in contact with the inside of the tip of the nozzle.
+</li><li> Cut the top end of the PTFE liner with a razor knife.  It should project out of the nozzle holder slightly to ensure that the extruder keeps the PTFE liner from backing out.
+</li></ol>
+<h3> <span class="mw-headline" id="Mk_II_2">Mk II</span></h3>
+<ol><li> Secure the brass nozzle in a vise by the heater section.
+</li><li> Optional:  Install the support washer.  If the support washer is to be used, drill the appropriate holes for the support rods prior to installation.  (Note:  The above pictures do not have holes drilled as it is possible that the hole locations could vary.)
+</li><li> Screw the nozzle holder down onto the nozzle.  If no flats are milled, use a pair of pliers to tighten the nozzle.  The nozzle holder can be protected from the pliers by first wrapping it with a rag or paper towel.  If there are flats milled, a 13mm (1/2") open-end wrench can be used to tighten the nozzle.
+</li><li> Using a dental pick, straightened out paper clip, small screw driver, etc., ensure that the nozzle holder is screwed down all the way by feeling for an internal gap between the brass and the nozzle holder.  If a gap can be felt, screw the nozzle holder even tighter.  If there is a gap, the PTFE liner can "flow" into the gap and eventually cause the print head to fail.
+</li><li> Slide the PTFE liner down into the nozzle holder.  The liner must be inserted by the tapered end and it is important that the tapered end is in contact with the inside of the tip of the nozzle.
+<ol><li> If the optional melt chamber has been added, to the nozzle, the PTFE will not make contact with the tip.  Instead, it will make contact with the top edge of the melt chamber.
+</li><li> If the PTFE liner doesn't seem to be seating properly, it may be because the PTFE liner is getting hung up on the inside edge of the brass nozzle.  Follow the following directions:
+<ol><li> Unscrew the brass nozzle from the PEEK nozzle holder.
+</li><li> Install the PTFE liner so that about 1/2 of it is sticking out the hot end of the PEEK nozzle holder.
+</li><li> Screw the PEEK nozzle holder onto the brass nozzle.  The PTFE liner will be pushed back as you push and screw the assembly together.
+</li><li> You may need to follow this sub-set of directions after you have marked and cut the PTFE liner to the correct length. 
+</li></ol>
+</li></ol>
+</li><li> With a razor knife, mark the PTFE liner where it is flush with the top of the nozzle holder.
+</li><li> Remove the PTFE liner.
+</li><li> From the mark, use a razor knife to cut the PTFE liner about 5/32" towards the tapered end.
+</li><li> Optional:  Chuck the liner in a lathe and face-off the cold end of the liner.  Then, using a center drill, make a slight internal taper in the end of the liner.  
+</li><li> Slide the PTFE liner back down into the thermal barrier.
+</li><li> Screw in the hollow-lock socket set screw.  It will need to be lightly tightened.  Over-tightening may result in the PTFE liner becoming distorted.
+</li></ol>
+<h3> <span class="mw-headline" id="Mk_III_2">Mk III</span></h3>
+<ol><li> Install the heat-sink.  The heat-sink will probably need to be pressed in place.  Care must be taken to ensure that the heat-sink liner passage is properly aligned with the nozzle holder liner passage.  After the heat-sink is installed, ensure that the liner passage is clear of any debris.
+</li><li> Secure the aluminum nozzle in a vise by the heater section.
+</li><li> Optionally, install the support washer.  If the support washer is to be used, drill the appropriate holes for the support rods prior to installation.  (Note:  The above pictures do not have holes drilled as it is possible that the hole locations could vary.)
+</li><li> Screw the nozzle holder down onto the nozzle.  If necessary, use a pair of pliers to tighten the nozzle.  The nozzle holder can be protected from the pliers by first wrapping it with a rag or paper towel.
+</li><li> Using a dental pick, straightened out paper clip, small screw driver, etc., ensure that the nozzle holder is screwed down all the way by feeling for an internal gap between the brass and the nozzle holder.  If a gap can be felt, screw the nozzle holder even tighter.  If there is a gap, the PTFE liner can "flow" into the gap and eventually cause the print head to fail.
+</li><li> Slide the PTFE liner down into the nozzle holder.  The liner must be inserted by the tapered end and it is important that the tapered end is in contact with the inside of the tip of the nozzle.
+</li><li> With a razor knife, mark the PTFE liner where it is flush with the top of the nozzle holder.
+</li><li> Remove the PTFE liner.
+</li><li> From the mark, use a razor knife to cut the PTFE liner about 5/32" towards the tapered end.  
+</li><li> Slide the PTFE liner back down into the thermal barrier.
+</li><li> Screw in the hollow-lock socket set screw.  It will need to be lightly tightened.  Over-tightening may result in the PTFE liner becoming distorted.
+</li></ol>
+<h3> <span class="mw-headline" id="Mk_IV_2">Mk IV</span></h3>
+<p>The assembly instructions are identical to those of the Mk II.
+</p><p><br />
+</p>
+<h3> <span class="mw-headline" id="Mk_V_2">Mk V</span></h3>
+<ol><li> Secure the brass nozzle in a vise by the heater section.
+</li><li> Wrap a couple of turns of PTFE tape (plumbing tape) around the brass threads.
+</li><li> Screw the nozzle holder down onto the nozzle.  If no flats are milled, use a pair of pliers to tighten the nozzle.  The nozzle holder can be protected from the pliers by first wrapping it with a rag or paper towel.  If there are flats milled, a 13mm (1/2") open-end wrench can be used to tighten the nozzle.
+</li><li> Remove the brass nozzle from the vise.
+</li><li> Slide the PTFE liner down into the nozzle holder.  The PTFE liner needs to be inserted such that the flat end is making contact with the brass and the internally tapered end is towards the top.
+</li><li> Install the washer.
+</li><li> Screw in the hollow-lock socket set screw.  Ensure that the washer stays centered while tightening this set screw.  Use a piece of filament to ensure that the set screw is not too tight as the liner can become compressed and obstruct the passage.  If this happens, slightly loosen the set screw.
+</li></ol>
+<h3> <span class="mw-headline" id="Heater_Resistor_2">Heater Resistor</span></h3>
+<p>The heater resistor can be installed one of 3 ways:
+</p>
+<ol><li> Put a little bit of muffler repair putty on the resistor and slide it into the hole.  It can be cured by letting it set a couple hours before bringing the hot-end up to temperature.
+</li><li> Slide the heater resistor in the hole.  If it fits tightly, this will work.  If there is any gap, between the resistor and brass, it may result in failure of the heater resistor.
+</li><li> Wrap a thin strip of aluminum foil around the heater resistor and adjust it by gradually cutting it shorter until the resistor and file slide it into.  Care must be taken to ensure that the proper amount of aluminum foil is used in order to take up any gap between the heater resistor and the brass.
+</li></ol>
+<h3> <span class="mw-headline" id="Thermistor">Thermistor</span></h3>
+<p>Note:  The thermistor table, for Thermistor 1, is <a rel="nofollow" class="external text" href="http://reprap.org/wiki/J_Head_Nozzle#Thermistor">here</a>.
+</p>
+<ol><li> Insulate the leads to the thermistor.  This is usually accomplished one of two ways.
+<ol><li> Use Kapton tape as insulation by separating the leads and sandwiching the leads in-between two strips of Kapton tape.
+</li><li> Use PTFE insulation and slide it over each lead.
+</li></ol>
+</li><li> Place the thermistor in its hole and secure it with Kapton tape.
+</li></ol>
+<h2> <span class="mw-headline" id="Installation">Installation</span></h2>
+<h3> <span class="mw-headline" id="Using_the_Mounting_Holes_in_the_Wade_Extruder">Using the Mounting Holes in the Wade Extruder</span></h3>
+<p><a href="/wiki/Wade%27s_Geared_Extruder" title="Wade's Geared Extruder"> Wade Extruder</a>
+</p>
+<ol><li> Insert the nozzle holder in the 5/8 inch (16mm) hot-end socket.
+</li><li> Using a sharp instrument or other object, mark the 4 hole locations on the nozzle holder.
+</li><li> Remove the nozzle holder.
+</li><li> Using a round file, file the mounting grooves in the nozzle holder in order to create 2 grooves for the mounting screws or bolts to pass through.
+</li><li> Install the hot end.
+</li></ol>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="Using_The_Support_Washer">Using The Support Washer</span></h3>
+<p>Note:  The support washer cannot be used for hot-ends starting with the Mk V.
+</p>
+<ol><li> Prior to installing the optional support washer, mark and drill the appropriate mounting holes on the support washer.
+</li><li> Install the optional support washer in between the J-Head Nozzle and the nozzle holder.
+</li><li> Use the support rods, screws, and/or washers to hold the hot-end in place.
+</li></ol>
+<h3> <span class="mw-headline" id="Using_Wire_With_The_Support_Washer">Using Wire With The Support Washer</span></h3>
+<p><a rel="nofollow" class="external text" href="http://suddendevelopment.com/?p=123">Example</a>
+</p>
+<ol><li> Cut 4 evenly-spaced slots in the support washer.
+</li><li> Run the wire into the channels.
+</li><li> Tighten the wire vertically and diagonally. Then wrap wire around the middle tightly, tightening all of the vertical and diagonal runs.
+</li></ol>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="Using_A_Mounting_Groove">Using A Mounting Groove</span></h3>
+<p>Use a nozzle holder that is machined with the optional mounting groove and a cold-end that is designed for using a mounting groove or an adapter plate <a href="/wiki/Mounting_plate" title="Mounting plate"> adapter plate</a> for a mounting groove.  In this configuration, a mounting groove is normally required.
+</p>
+<h3> <span class="mw-headline" id="Wildseyed_Simple_Hot_End_Mounting_System">Wildseyed Simple Hot End Mounting System</span></h3>
+<p>Note:  Ensure that the cold-end either has a 5/8" mounting hole or can be drilled out to 5/8".
+</p><p>Follow the mounting instructions for the <a href="/wiki/Wildseyed_Simple_Hot_End#Step_Eight_-_The_Mounting" title="Wildseyed Simple Hot End"> Wildseyed Simple Hot End</a>.
+</p><p><br />
+</p>
+<h2> <span class="mw-headline" id="Notes">Notes</span></h2>
+<h3> <span class="mw-headline" id="General">General</span></h3>
+<ol><li> In the Mk1 version, the cold-end of the PTFE liner will need to be retained in order to prevent it from backing out of the hot-end.  With some extruders, such as the <a href="/wiki/Wade%27s_Geared_Extruder" title="Wade's Geared Extruder"> Wade Extruder</a>, the PTFE liner will easily be retained by the socket that retains the hot-end.  If the liner is not properly retained, there is a high probability of the nozzle developing a leak.
+</li><li> While printing ABS, if the nozzle clogs due to crystalized filament the temperature is most likely too high.
+</li><li> Either black or tan PEEK can be used for the nozzle holders.  Black PEEK is usually used as it looks nicer.  However, sometimes suppliers are out of black PEEK and tan PEEK has to be substituted.
+</li><li> When using a hot-end, with a vented PEEK nozzle holder (i.e.  Mk IV-B), it is critical that the milled vents are not obstructed in any way.  These vents are used to cool the hot-end by both removing as much PEEK as possible, to prevent the liner from being insulated, and to allow air to blow through and cool the hot-end.  If these vents are obstructed (i.e.  taped over), it is quite possible that PLA will jam in the hot-end.
+</li></ol>
+<h3> <span class="mw-headline" id="Nozzle_Orifice">Nozzle Orifice</span></h3>
+<h4> <span class="mw-headline" id="Drill_bit_sizes_and_conversions">Drill bit sizes and conversions</span></h4>
+<p>As drill bits usually drill holes slightly larger than their rated size, the following drill bits are used to drill out the orifice of J-Head nozzles:
+</p><p><br />
+</p>
+<table border="1">
+<tr>
+<td><b>Rated Size</b>
+</td>
+<td><b>SAE Drill Bit Used</b>
+</td>
+<td><b>Actual Metric Size</b>
+</td></tr>
+<tr>
+<td>0.25mm
+</td>
+<td>0.0098
+</td>
+<td>0.2489
+</td></tr>
+<tr>
+<td>0.30mm
+</td>
+<td>0.0118
+</td>
+<td>0.2997
+</td></tr>
+<tr>
+<td>0.35mm
+</td>
+<td>0.0135
+</td>
+<td>0.343
+</td></tr>
+<tr>
+<td>0.40mm
+</td>
+<td>0.0157
+</td>
+<td>0.399
+</td></tr>
+<tr>
+<td>0.50mm
+</td>
+<td>0.0189
+</td>
+<td>0.480
+</td></tr>
+<tr>
+<td>0.60mm
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>0.70mm
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>0.75mm
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>0.80mm
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>0.90mm
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1.00mm
+</td>
+<td>N/A
+</td>
+<td>1.00
+</td></tr></table>
+<p>Notes:
+</p>
+<ol><li> More sizes will be added as they become available.
+</li><li> Smaller drill bits are used in order to keep the orifice size within the rated size and to increase the lifespan of the nozzle by ensuring that the orifice size will "wear to size" in the event that the orifice is slightly enlarged for any reason.  (i.e.  by cleaning with a piece of thin wire).
+</li></ol>
+<h4> <span class="mw-headline" id="Nozzle_orifice_length">Nozzle orifice length</span></h4>
+<ol><li>  Mk IV hot-ends (up to the middle of May 2012), and earlier models, had a nozzle orifice length of approximately 1.25mm.
+</li><li>  Mk IV hot-ends (after the middle of May 2012) and Mk V hot-ends have a nozzle orifice length of approximately 0.50mm.  
+</li></ol>
+<p>Note:  Due to the nature of 5c collets, the nozzle orifice length can vary as much as 0.25mm.
+</p>
+<h3> <span class="mw-headline" id="Troubleshooting">Troubleshooting</span></h3>
+<ol><li>  PEEK appears to have a maximum temperature of 248 degrees C.  If the nozzle pushes out of the PEEK nozzle holder, this temperature was most likely exceeded.
+</li><li>  If the nozzle is leaking, between the PEEK nozzle holder and the brass nozzle, check to see if the hollow set-screw is snug.  This set-screw is located at the cold end and retains the liner.  Wrapping PTFE tape, around the brass threads, will help to eliminate leaks as well.
+</li><li>  It is possible for the PTFE liner to impede the filament path if the hollow set-screw is too tight.  This is because of the taper at the hot end of the PTFE liner.
+</li><li>  Ensure that the thermistor value is set to "1".
+</li><li>  In the event that the extruder is not feeding correctly, loosen up the pinch wheel and ensure that the filament can be fed by hand.  Also, if possible, independently verify the temperature of the hot-end.
+</li><li>  If a cooling fan is blowing directly on a non-insulated nozzle, it is possible to have an uneven temperature on either side of the brass nozzle/heater.  Under the right conditions, this can cause a condition where the temperature is correct, on one side, and too high, on the other.  To resolve this problem, either insulate the brass or direct the airflow away from the brass.
+</li></ol>
+<h3> <span class="mw-headline" id="Testing">Testing</span></h3>
+<h4> <span class="mw-headline" id="Prototype">Prototype</span></h4>
+<ol><li> While this nozzle is experimental, initial tests have proven to be very positive.  At the time this note was added, the prototype had printed for well over 20 hours.
+</li><li> Further testing indicates that it is critical that the internal gap, between the brass and the PEEK, is completely eliminated.  If there is a gap, the PTFE will tend to "flow" into the gap and create a place for the filament to form a plug.
+</li><li> Since this nozzle, internally, is similar to the Makerbot Mk V, testing indicates that it is probably a good idea to taper the PTFE at the hot-end of the nozzle.
+</li><li> Testing of units with the internal gap, at the joint of the PEEK and the brass, have resulted in early failure.  Replacing the PTFE liner would allow the nozzle to continue printing.
+</li><li> Even with the internal gap, after two weeks the the initial prototype nozzle is still working.
+</li><li> After almost a month, the initial prototype nozzle is still working.  Due to the gap problem, it needs to have the PTFE liner replaced around once a week.
+</li></ol>
+<h4> <span class="mw-headline" id="Mk_I_3">Mk I</span></h4>
+<ol><li> Initial testing of a nozzle, with the internal gap problem resolved, is very positive.
+</li><li> A nozzle has been successfully tested extruding PLA.
+</li><li> Some reservations have been expressed regarding the mounting of the nozzle.  (Maybe the fender washer should be the recommended method or another method should be devised?)
+</li><li> Extruding PLA can result in an early failure of the PTFE liner.  This failure has been prevented by both increasing the feed rate of the filament and using a cooling fan.  This is to keep the filament from getting to hot too high up in the liner.  A heat-sink may be required in order to provide a more adequate solution.
+</li><li> Due to this nozzle successfully printing both ABS and PLA, this entry has been updated to "working".
+</li></ol>
+<h4> <span class="mw-headline" id="Mk_I_with_Heat_Sink">Mk I with Heat Sink</span></h4>
+<ol><li> Nozzles, with the experimental heat-sink, have been printing successfully.  At this time, none have been reported to have printed PLA.
+</li><li> The experimental heat-sink has shown to help considerably when printing with PLA.  The configuration, that worked best, had the heat-sink with a fan providing active cooling.  The air, from the fan, was directed to blow over the heat-sink and not the nozzle itself.
+</li><li> When printing 3mm PLA, the heat-sink has proven to be very consistent and reliable.
+</li></ol>
+<h4> <span class="mw-headline" id="Mk_III-B_2">Mk III-B</span></h4>
+<ol><li>  PLA has been printed with a 0.70mm nozzle.  However, there isn't enough heat provided by the heater resistor so the print speed has to be kept down.  As a result, there is not advantage using a 0.70mm nozzle over a 0.50mm nozzle when printing with PLA.
+</li></ol>
+<h4> <span class="mw-headline" id="Mk_IV_Original_Prototype">Mk IV Original Prototype</span></h4>
+<ol><li> The version 3 nozzle, with a 6.8 ohm resistor, was used for testing.
+</li><li> PLA has been printed with an airflow directed through the milled vents.
+</li></ol>
+<h4> <span class="mw-headline" id="Mk_V-B_2">Mk V-B</span></h4>
+<ol><li> PLA has been printed successfully.
+</li><li> ABS has been printed successfully.
+</li><li> Some leakage has been reported when printing PLA.  However, as long as the hollow set-screw is very tight, it isn't a problem.  As "insurance", it is recommended to seal the brass threads with PTFE tape.
+</li></ol>
+<h4> <span class="mw-headline" id="Experimental_Light-Weight_Hot_End">Experimental Light-Weight Hot End</span></h4>
+<ol><li> An experimental hot-end was built with a fluted nozzle holder and an aluminum nozzle (v2).  A 1.75mm liner was installed and it was sent out for testing.
+</li><li> With a fan, to provide cooling, this nozzle has successfully printed 1.75mm PLA.
+</li><li> The light-weight aluminum nozzle should be insulated in order to maintain the proper temperature.
+</li><li> This nozzle leaked.  This was most likely due to the lack of a retainer for the 1.75mm liner.
+</li></ol>
+<h4> <span class="mw-headline" id="Thermally_Fused_Hot-End">Thermally Fused Hot-End</span></h4>
+<ol><li> An experimental brass nozzle was machined that would accommodate a thermal fuse.
+</li><li> If a heater resistor were to be wired in series with the thermal fuse, the theory is that the thermal fuse would break the circuit to prevent the PEEK from melting.  This would be ideal in the event of a thermistor failure.
+</li><li> A static test was successful, however, thermal fuses are not yet readily available in the required temperature range.
+</li></ol>
+<h3> <span class="mw-headline" id="Possible_Future_Modifications">Possible Future Modifications</span></h3>
+<h4> <span class="mw-headline" id="Implemented_Or_Working">Implemented Or Working</span></h4>
+<ol><li> If the extruder will not retain the PTFE liner, it may be possible to install a 5/16-24 hollow-lock socket set screw (McMaster-Carr part number 91318A550 or 91301A150) in the cold-end of the nozzle holder.  (This has been implemented in the MK II.)
+</li><li> Using 5/8 x 1/2 inch rectangular brass bar stock, instead of 5/8 inch square bar stock, will eliminate 1 machining operation, slightly reduce the cost of the raw materials, and may reduce the machining time for other operations as there will be less material to remove.
+</li><li> Either the total length should be increased or two versions should be made available.  The longer version would have a 50mm thermal barrier and the liner (for the MK I) should have an initial length of 3 1/2 inches.
+</li><li> A groove-mount design could be created.  However, a hollow-lock socket set screw (above) or a custom hollow set screw would have to be used to retain the liner.  (The nozzle holder blueprint has been updated to include this option.)
+</li><li> Add a starting taper to the cold end of the PTFE liner.  (This has been implemented in the MK II.)
+</li><li> A heat-sink option could be added to the nozzle holder.
+</li><li> It may be possible to convert this extruder to 1.75mm by replacing the PTFE tubing with a piece of 1/4" PTFE that has been drilled out to 1.75mm.  (This has been proven to work.)
+</li><li> Use an aluminum nozzle made out of a high-strength aluminum alloy, such as 2024 or 7075.  This should lighten the nozzle as well as improve the thermal conductivity of the nozzle.  (Depending upon the alloy, the thermal conductivity, can be more than twice that of brass and an aluminum nozzle should be around 1/3rd the weight of a brass nozzle.)
+</li><li> Turn the center of the nozzle holder down to 12mm and add fluting in order to provide cooling and weight reduction.
+</li><li> Change to the 6.8 ohm heater resistor.  The 6.8 ohm heater resistor has a smaller OD and, as a result, the heater block size could be reduced.  (A prototype has been machined.  Since it fits in a 13mm x 13mm piece of bar-stock, it is worth pursuing.  The prototype weighs 3.1 grams.)
+</li><li> Cut grooves in the nozzle holder to help keep the nozzle holder cold at the cold-end.  (Grooves, with supports have been milled in a test nozzle holder.)
+</li><li> Shorten the brass nozzle and reduce the number of threads.  This will result in there being less brass to heat up and the heat-sink could be moved closer to the hot-end.  (The threaded end, of the MK V, has been reduced to 0.500" from 0.560".)
+</li></ol>
+<h4> <span class="mw-headline" id="Testing_Phase">Testing Phase</span></h4>
+<h4> <span class="mw-headline" id="Under_Consideration">Under Consideration</span></h4>
+<ol><li> Use an axial thermistor installed in a through-hole.  (Due to the limited amount of brass, in the J-Head Mk V-B, an axial thermistor cannot be installed properly and efficiently without a re-design of the nozzle.)
+</li><li> Add a thermal fuse to prevent the PEEK from melting in the event of a thermistor (or other) failure.  (See testing notes, above.)
+</li></ol>
+<h4> <span class="mw-headline" id="Rejected">Rejected</span></h4>
+<p>Note:  Rejected ideas may be re-visited in the future.
+</p>
+<ol><li> Add the capability to mount a thermocouple.
+</li><li> Improve the thermistor mounting by adding a clamp or retaining system.
+</li><li> Add shallow grooves, in the PEEK over the end with the 3/8-24 threads.  This will add more surface area to the PEEK and may help with the cooling of the nozzle holder.
+</li></ol>
+<p><br />
+</p>
+<h4> <span class="mw-headline" id="Miscellaneous">Miscellaneous</span></h4>
+<ol><li> A <a href="/wiki/Mini_J_Head_Nozzle" title="Mini J Head Nozzle"> Mini J-Head nozzle </a> design has been started.  This design is a heavily modified version of the J-Head Nozzle.  
+</li><li> This design could be scaled down to create a mini version using a 4mm OD and 2mm ID PTFE sleeve.  (See the <a href="/wiki/Mini_J_Head_Nozzle" title="Mini J Head Nozzle"> Mini J-Head nozzle </a>.)
+</li></ol>
+<h3> <span class="mw-headline" id="Weights">Weights</span></h3>
+<p>Note:  All weights include the heater and heat sensor unless otherwise noted.  Weights may vary slightly from what is listed.
+</p>
+<table border="1">
+<tr>
+<td><b>Hot-End</b>
+</td>
+<td><b>Weight</b>
+</td>
+<td><b>Notes</b>
+</td></tr>
+<tr>
+<td>J-Head Mk II
+</td>
+<td>27.1 grams
+</td>
+<td>
+</td></tr>
+<tr>
+<td>J-Head Mk II
+</td>
+<td>17 grams
+</td>
+<td>Using nozzle v2.
+</td></tr>
+<tr>
+<td>J-Head Mk III
+</td>
+<td>21.9 grams
+</td>
+<td>
+</td></tr>
+<tr>
+<td>J-Head Mk III-B
+</td>
+<td>30.0 grams
+</td>
+<td>
+</td></tr>
+<tr>
+<td>J-Head Mk IV
+</td>
+<td>16.8 grams
+</td>
+<td>With nozzle v2, optional improvements, and v4 50mm nozzle holder
+</td></tr>
+<tr>
+<td>J-Head Mk IV-B
+</td>
+<td>25.6 grams
+</td>
+<td>With nozzle v1 and v4 50mm nozzle holder.
+</td></tr>
+<tr>
+<td>J-Head Mk IV-B
+</td>
+<td>26.5 grams
+</td>
+<td>With nozzle v1, it's optional improvements, and v4 50mm nozzle holder.
+</td></tr>
+<tr>
+<td>J-Head Mk V
+</td>
+<td>12.8 grams
+</td>
+<td>
+</td></tr>
+<tr>
+<td>J-Head Mk V-B
+</td>
+<td>20.5 grams
+</td>
+<td>
+</td></tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>J-Head, Experimental Fluted
+</td>
+<td>14.7 grams
+</td>
+<td>With nozzle v2 and fluted nozzle holder.
+</td></tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Geared Extruder Nozzle
+</td>
+<td>29.7 grams
+</td>
+<td>Original design with aluminum heater block and without hardware.
+</td></tr>
+<tr>
+<td>ParCan v2
+</td>
+<td>27.5 grams
+</td>
+<td>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Working_Examples">Working Examples</span></h2>
+<h3> <span class="mw-headline" id="Pictures">Pictures</span></h3>
+<p><a href="/wiki/File:Jhn_prototype_test_a.jpg" class="image"><img alt="Jhn prototype test a.jpg" src="/mediawiki/images/thumb/0/03/Jhn_prototype_test_a.jpg/150px-Jhn_prototype_test_a.jpg" width="150" height="113" srcset="/mediawiki/images/thumb/0/03/Jhn_prototype_test_a.jpg/225px-Jhn_prototype_test_a.jpg 1.5x, /mediawiki/images/thumb/0/03/Jhn_prototype_test_a.jpg/300px-Jhn_prototype_test_a.jpg 2x" /></a>
+</p><p>First prototype in action.
+(Photo provided by Brian Briggs.)
+</p><p><a href="/wiki/File:Jhn_pla_test.jpg" class="image"><img alt="Jhn pla test.jpg" src="/mediawiki/images/thumb/f/fd/Jhn_pla_test.jpg/150px-Jhn_pla_test.jpg" width="150" height="182" srcset="/mediawiki/images/thumb/f/fd/Jhn_pla_test.jpg/225px-Jhn_pla_test.jpg 1.5x, /mediawiki/images/thumb/f/fd/Jhn_pla_test.jpg/300px-Jhn_pla_test.jpg 2x" /></a>
+</p><p>A test print using PLA.  A high filament speed was used and there was little tuning of Skeinforge as the goal was to see if the nozzle would print with PLA.  (Photo provided by Anthony Aragues.)
+</p><p><a href="/wiki/File:Jhn_w_heat_sink_printing_pla_gear_s.jpg" class="image"><img alt="Jhn w heat sink printing pla gear s.jpg" src="/mediawiki/images/thumb/3/38/Jhn_w_heat_sink_printing_pla_gear_s.jpg/150px-Jhn_w_heat_sink_printing_pla_gear_s.jpg" width="150" height="83" srcset="/mediawiki/images/thumb/3/38/Jhn_w_heat_sink_printing_pla_gear_s.jpg/225px-Jhn_w_heat_sink_printing_pla_gear_s.jpg 1.5x, /mediawiki/images/thumb/3/38/Jhn_w_heat_sink_printing_pla_gear_s.jpg/300px-Jhn_w_heat_sink_printing_pla_gear_s.jpg 2x" /></a>
+</p><p>A five hour print, of a gear, in PLA.  A J-Head nozzle (Mk I), with an aluminum heat sink, was used.  Please note the cooling fan configuration.  (Photo provided by Anthony Aragues.)
+</p><p><a href="/wiki/File:J-Head-Mk-IV-B.jpg" class="image"><img alt="J-Head-Mk-IV-B.jpg" src="/mediawiki/images/thumb/6/6d/J-Head-Mk-IV-B.jpg/150px-J-Head-Mk-IV-B.jpg" width="150" height="90" srcset="/mediawiki/images/thumb/6/6d/J-Head-Mk-IV-B.jpg/225px-J-Head-Mk-IV-B.jpg 1.5x, /mediawiki/images/thumb/6/6d/J-Head-Mk-IV-B.jpg/300px-J-Head-Mk-IV-B.jpg 2x" /></a>
+</p><p>J-Head Mk IV-B thermsistor wiring
+(Photo provided by MotoBarsteward.)
+</p><p><a href="/wiki/File:J-Head-Mk-IV-B-wiring.jpg" class="image"><img alt="J-Head-Mk-IV-B-wiring.jpg" src="/mediawiki/images/thumb/7/76/J-Head-Mk-IV-B-wiring.jpg/150px-J-Head-Mk-IV-B-wiring.jpg" width="150" height="90" srcset="/mediawiki/images/thumb/7/76/J-Head-Mk-IV-B-wiring.jpg/225px-J-Head-Mk-IV-B-wiring.jpg 1.5x, /mediawiki/images/thumb/7/76/J-Head-Mk-IV-B-wiring.jpg/300px-J-Head-Mk-IV-B-wiring.jpg 2x" /></a>
+</p><p>J-Head Mk IV-B resistor wiring
+(Photo provided by MotoBarsteward.)
+</p><p><br />
+Note:  Updated pictures - <a href="/mediawiki/index.php?title=User:Remondo&amp;action=edit&amp;redlink=1" class="new" title="User:Remondo (page does not exist)">Remondo</a> 00:28, 8 June 2012 (UTC)
+</p>
+<h3> <span class="mw-headline" id="Videos">Videos</span></h3>
+<p><a rel="nofollow" class="external text" href="http://www.youtube.com/watch?v=qWRLJOm1do8">Printing A Gear</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 461/1000000
+Preprocessor generated node count: 877/1000000
+Post‐expand include size: 1753/2097152 bytes
+Template argument size: 462/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+-->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="http://reprap.org/mediawiki/index.php?title=J_Head_Nozzle&amp;oldid=109580">http://reprap.org/mediawiki/index.php?title=J_Head_Nozzle&amp;oldid=109580</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:Working_developments" title="Category:Working developments">Working developments</a></li><li><a href="/wiki/Category:Hot_End" title="Category:Hot End">Hot End</a></li><li><a href="/wiki/Category:Extruders" title="Category:Extruders">Extruders</a></li><li><a href="/mediawiki/index.php?title=Category:Pages_with_broken_file_links&amp;action=edit&amp;redlink=1" class="new" title="Category:Pages with broken file links (page does not exist)">Pages with broken file links</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/mediawiki/index.php?title=Special:UserLogin&amp;returnto=J+Head+Nozzle&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/mediawiki/index.php?title=Special:UserLogin&amp;returnto=J+Head+Nozzle" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/J_Head_Nozzle"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:J_Head_Nozzle"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/J_Head_Nozzle" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/mediawiki/index.php?title=J_Head_Nozzle&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/mediawiki/index.php?title=J_Head_Nozzle&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/mediawiki/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search RepRapWiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(/mediawiki/reprap_logo.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Main-Page"><a href="/wiki/RepRap">Main Page</a></li>
+			<li id="n-Recent-Changes"><a href="/wiki/Special:RecentChanges">Recent Changes</a></li>
+			<li id="n-Help"><a href="/wiki/RepRapWiki:Help">Help</a></li>
+			<li id="n-Glossary"><a href="/wiki/Glossary">Glossary</a></li>
+			<li id="n-Reference"><a href="/wiki/Reference">Reference</a></li>
+			<li id="n-Translations"><a href="/wiki/RepRapWiki:Translations">Translations</a></li>
+			<li id="n-Random-Page"><a href="/wiki/Special:Random">Random Page</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- Build a machine: -->
+<div class="portal" role="navigation" id='p-Build_a_machine:'>
+	<h3>Build a machine:</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Build-a-RepRap"><a href="/wiki/RepRap_Options">Build a RepRap</a></li>
+			<li id="n-Build-a-RepStrap"><a href="/wiki/Category:RepStrap">Build a RepStrap</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Build a machine: -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- Community -->
+<div class="portal" role="navigation" id='p-Community'>
+	<h3>Community</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Development-Index"><a href="/wiki/Development">Development Index</a></li>
+			<li id="n-Planet-RepRap"><a href="http://planet.arcol.hu/" rel="nofollow">Planet RepRap</a></li>
+			<li id="n-Blog-of-Blogs"><a href="http://pipes.yahoo.com/pipesadrian_reprap_pipe/reprap" rel="nofollow">Blog of Blogs</a></li>
+			<li id="n-IRC"><a href="/wiki/IRC">IRC</a></li>
+			<li id="n-Forums"><a href="http://forums.reprap.org/" rel="nofollow">Forums</a></li>
+			<li id="n-RepRap-Groups"><a href="http://forums.reprap.org/index.php?19" rel="nofollow">RepRap Groups</a></li>
+			<li id="n-Community-Portal"><a href="/wiki/RepRapWiki:Community">Community Portal</a></li>
+			<li id="n-Licence"><a href="/wiki/RepRapGPLLicence">Licence</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Community -->
+
+<!-- Donate -->
+<div class="portal" role="navigation" id='p-Donate'>
+	<h3>Donate</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Donation-Page"><a href="http://sourceforge.net/donate/index.php?group_id=159590" rel="nofollow">Donation Page</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Donate -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/J_Head_Nozzle" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/J_Head_Nozzle" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-print"><a href="/mediawiki/index.php?title=J_Head_Nozzle&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+			<li id="t-permalink"><a href="/mediawiki/index.php?title=J_Head_Nozzle&amp;oldid=109580" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/mediawiki/index.php?title=J_Head_Nozzle&amp;action=info">Page information</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 3 November 2013, at 21:23.</li>
+											<li id="footer-info-viewcount">This page has been accessed 189,656 times.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation License 1.2</a>.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/wiki/RepRapWiki:Privacy_policy" title="RepRapWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/RepRapWiki:About" title="RepRapWiki:About">About RepRapWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/RepRapWiki:General_disclaimer" title="RepRapWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://www.gnu.org/copyleft/fdl.html"><img src="/mediawiki/skins/common/images/gnu-fdl.png" alt="GNU Free Documentation License 1.2" width="88" height="31" /></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/mediawiki/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.view.postEdit","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","skins.vector.js"], null, true);
+}</script>
+<script src="http://reprap.org/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<!-- Served in 0.551 secs. -->
+	</body>
+</html>
